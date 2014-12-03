@@ -1,0 +1,12 @@
+%in:192.168
+%ex
+
+Zcbnet.itinet.fr:ns.cbnet.itinet.fr:admin.cbnet.fr:2014110300:::::3600:in
+.cbnet.itinet.fr:10.8.100.2:ns.cbnet.itinet.fr:7200:::in
++cbnet.itinet.fr:10.8.100.2:1800:::in
+@cbnet.itinet.fr:10.8.100.205:admin.cbnet.itinet.fr::7200:::in
+ 
+Zcbnet.itinet.fr:ns.cbnet.itinet.fr:admin.cbnet.fr:2014110300:::::3600:ex
+.cbnet.itinet.fr:88.177.168.133:ns.cbnet.itinet.fr:7200:::ex
++cbnet.itinet.fr:88.177.168.133:1800:::ex
+@cbnet.itinet.fr:88.177.168.133:admin.cbnet.itinet.fr::7200:::ex

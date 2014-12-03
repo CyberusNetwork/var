@@ -1,0 +1,153 @@
+@comment $OpenBSD: PLIST,v 1.5 2013/11/25 11:37:15 sthen Exp $
+@name apr-1.4.6p3
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.5/packages/i386/apr-1.4.6p3.tgz
+@signer openbsd-55-pkg
+@digital-signature signify:2014-03-06T00:31:09Z:RWQQC1M9dhm/tnRaozazIkvGn//h8/GiRzFzjm0g2/ZJ1U3FBYwC4qCw12fZFWRw2zyUNiXVAYP8VqPd6Lv/MNp3iK0IYWIGbQY=
+@comment pkgpath=devel/apr cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha SSiDwQ4pe1KCEGIAmbAvKzKdzQTNHq4W/qLMPYQuiUg=
+@size 258
+@conflict apr-mt-*
+@pkgpath devel/apr,mt
+@wantlib pthread.18.0
+@cwd /usr/local
+bin/apr-1-config
+@sha +2QurWEg1i5FktZ+ub3nIyH2tSdAsg4n6jnX++Ig1K0=
+@size 6790
+include/apr-1/
+include/apr-1/apr.h
+@sha DM8S1I3BzGCXD9SnvNFyF3ze1Et5B9g/+wS9lJvNk+k=
+@size 16815
+include/apr-1/apr_allocator.h
+@sha 5I4qk55iL3IOyqY3SedGQ+y/jwI06lWfXM3pPuf4bmo=
+@size 5334
+include/apr-1/apr_atomic.h
+@sha p+uCzpiLo8r6aDLev/Tl53DrMj9+T+nvRci54MWUR94=
+@size 4130
+include/apr-1/apr_dso.h
+@sha O+dV6YXNa0OTRs4s0EXxLWM9pjT9rGZGOKUWW95YrWk=
+@size 2700
+include/apr-1/apr_env.h
+@sha LkqJCGHvj46FoJqqklAITS3yd+vhUkiber3rBckvFkA=
+@size 2105
+include/apr-1/apr_errno.h
+@sha z7Jy2JPOmPAhQaYELwi2x9+xrC3JoCtRDtO78JfW9OI=
+@size 54045
+include/apr-1/apr_file_info.h
+@sha 8fvowNk8KCnTv4+i66BkchT/PQM0A+cDAbKfRWHQ0qw=
+@size 17647
+include/apr-1/apr_file_io.h
+@sha GjeomcFfOEF+nkNYXPhQN/0MJkwoDSIL7EvbinJlhFk=
+@size 40062
+include/apr-1/apr_fnmatch.h
+@sha Jwckvy5QKzrYHf4r98NoJ2P1tn2GYc13pXufkSD7ML4=
+@size 6025
+include/apr-1/apr_general.h
+@sha pJrSriiFwuhci60Pi23TbYlUFMBi+nXEm+GSKS5DKmM=
+@size 7209
+include/apr-1/apr_getopt.h
+@sha WiTVexPYlx0ggTrpWZBJ100c/glSfmJZbQFDLBHNEXs=
+@size 5980
+include/apr-1/apr_global_mutex.h
+@sha cscjvpIxCi90+ZMPNLCNlLqBesEIOoIlPMpWSTVX7pk=
+@size 6293
+include/apr-1/apr_hash.h
+@sha 5Q/rvWpV6sKMCAOqwEAIhdf2AWJ+mFY5EhIow4UPWjk=
+@size 9621
+include/apr-1/apr_inherit.h
+@sha gdeXL+ynFY5uRE4qdOpdPhnuI4AtBJVPwOSS5DEJP2M=
+@size 2137
+include/apr-1/apr_lib.h
+@sha eOAC5KwLQutuYXTJqss1ghXtLQxmVime5sa1gf6iC10=
+@size 8430
+include/apr-1/apr_mmap.h
+@sha Rse1pgguvW/+gYnNRy2h5TSUi5sBueFuWGWyy545AQc=
+@size 5130
+include/apr-1/apr_network_io.h
+@sha 2SDXuaoICWYCU+0+oGOOZoUuuCWg216OgF9Y4YT/DKI=
+@size 33181
+include/apr-1/apr_poll.h
+@sha yIALzY94ZyDX4PXaNYihfNR3VMAUq2H4wvtPscA4YQw=
+@size 19875
+include/apr-1/apr_pools.h
+@sha PNMjna0MsFeZQDBA9PtzkQ+fyLAK6Hx0+WvMkmvlezk=
+@size 29390
+include/apr-1/apr_portable.h
+@sha JqDsv9FtSMCLH49ykWkpxaUcvPWGECle648svVjTCnE=
+@size 18571
+include/apr-1/apr_proc_mutex.h
+@sha Qndvroo0uCuQLX05f8GgthPn/9MKTL2IpYULeyu+L9I=
+@size 6002
+include/apr-1/apr_random.h
+@sha wM1ksxNvZdximTeI1BXo8owMbcKqhpQ4qCe3Vjoa7Ag=
+@size 5036
+include/apr-1/apr_ring.h
+@sha beMP+p9Mp9TIHm+1zKAPbTeest+dY1Dlw/RP68QBeXo=
+@size 19015
+include/apr-1/apr_shm.h
+@sha IhwfbNoZF2xybrZbUd2G9ulHZeSVZ+deu+t2OO5v/vM=
+@size 5448
+include/apr-1/apr_signal.h
+@sha OqF5u1JuoCrdNpCWnyyPAg9/+dzykI9YOOkF26J9IKA=
+@size 2761
+include/apr-1/apr_strings.h
+@sha 4Q9atbVgMXBPO+nrwnKmB3QVxnWHgmzF7zd6cLGxQBU=
+@size 14177
+include/apr-1/apr_support.h
+@sha iWZaHmYGqM5G0fYc90ynj8SVKoQwq+41MntAdxx6J9E=
+@size 1634
+include/apr-1/apr_tables.h
+@sha QUw93CEDrh9OJtZQ7P81Dx11n7Cu5/uSOV2u+l178YU=
+@size 18385
+include/apr-1/apr_thread_cond.h
+@sha y6LZ96TGXSkRvvMcCm26tw5jpi8J2UPWzKgGs2GJbqw=
+@size 5525
+include/apr-1/apr_thread_mutex.h
+@sha mYZW6cuNOrEumWTd/penEm0VuldWTG2h/h4Df3uiORs=
+@size 3836
+include/apr-1/apr_thread_proc.h
+@sha RX5VuFvBETn2Fty2H38+nvN7l4jkuhd8TN0DAq5HKNA=
+@size 34913
+include/apr-1/apr_thread_rwlock.h
+@sha 4JRLlOIc5pvtAKlm4dJF4uNkqNwCNcRGZ2DvVR9cpow=
+@size 4766
+include/apr-1/apr_time.h
+@sha r02E6Iv5F6fIOtb60RSctyR0nqwaF7plWBh4m/Rk06A=
+@size 7491
+include/apr-1/apr_user.h
+@sha KWoI4cAyzd5bvVHL4krXmV+3u/HGScAbQ9YVs8N0NtU=
+@size 5307
+include/apr-1/apr_version.h
+@sha IPO80n+xgELZcR9q81JFPxUbzD7VSKrQ0afdUz9Q8cg=
+@size 5239
+include/apr-1/apr_want.h
+@sha 8lVtLXslVOUrbsI4IaF49ErxzyowecnxpSIAHjjKWqc=
+@size 2958
+lib/apr-1/
+lib/apr-1/apr_rules.mk
+@sha 7Ndf0Ikl2QsTzhPDiCTliZaIQjSinsYSsbqC20WDQXU=
+@size 6089
+lib/apr-1/make_exports.awk
+@sha QbYwDxfwoNE8aJ6ChARnwhRYNtik130OJqufkm6pVVA=
+@size 2991
+lib/apr-1/make_var_export.awk
+@sha VZZR7qdEPoa9Ny5Y1YhhqDZfcr/rw832TE0B8k/UX/E=
+@size 1023
+lib/apr-1/mkdir.sh
+@sha GjnP672/5ygyboitVIM+p8O9ryL9sKFKYXgmNr70wWc=
+@size 980
+@comment lib/apr.exp
+lib/libapr-1.a
+@sha i9E5tRPHQdSyexeiP/nUt2LgKzhV7diP8FvnBmnkhWE=
+@size 255074
+lib/libapr-1.la
+@sha 05UTgwHoVbNMfT8+Atl/nb46jgghAhzKaEF+/Acupxs=
+@size 738
+@lib lib/libapr-1.so.4.6
+@sha uPJ3HLbhq84QE59JVXSG7ZdFoB95er3oJ6UKpcS8aTQ=
+@size 197360
+lib/pkgconfig/
+lib/pkgconfig/apr-1.pc
+@sha jEuj8KeXRqYPX0WAV0pmP6WGIzD3bgwcqpkU4FnQ/Ow=
+@size 304

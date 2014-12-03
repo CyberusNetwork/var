@@ -1,0 +1,106 @@
+
+Running security(8):
+
+Checking special files and directories.
+Output format is:
+	filename:
+		criteria (shouldbe, reallyis)
+etc/pf.conf: 
+	gid (0, 1)
+usr/local: 
+	permissions (0755, 02755)
+usr/local/bin: 
+	permissions (0755, 02755)
+
+======
+/etc/group diffs (-OLD  +NEW)
+======
+--- /var/backups/etc_group.current	Thu Nov 20 01:31:58 2014
++++ /etc/group	Mon Dec  1 14:29:23 2014
+@@ -75,3 +75,4 @@
+ _rrdcached:*:726:
+ chrapach:*:104:
+ test:*:999:
++thibault:*:1002:
+
+
+======
+/etc/passwd diffs (-OLD  +NEW)
+======
+--- /var/backups/etc_passwd.current	Tue Nov 25 01:32:12 2014
++++ /etc/passwd	Mon Dec  1 14:29:23 2014
+@@ -54,3 +54,6 @@
+ cyberus_openvpn:*:1000:1001::/dev/null:/bin/false
+ _rrdcached:*:726:726:rrdcached user:/nonexistent:/sbin/nologin
+ costet:*:1001:10:costet:/home/costet:/bin/ksh
++thibault:*:1002:10:Adrien Thibault:/home/thibault:/bin/ksh
++alain:*:1003:10:alain:/home/alain:/bin/ksh
++adjevi:*:1004:10:adjevi:/home/adjevi:/bin/ksh
+
+
+======
+/etc/pf.conf diffs (-OLD  +NEW)
+======
+--- /var/backups/etc_pf.conf.current	Wed Nov 26 01:32:07 2014
++++ /etc/pf.conf	Mon Dec  1 23:48:23 2014
+@@ -20,6 +20,8 @@
+ # Vérification des paquets fragmentés
+ match in all scrub (no-df)
+ 
++# Forwarding_port
++
+ #block tous les paquets
+ block in log all
+ block out log all
+@@ -27,7 +29,7 @@
+ #tout les règles passe
+ pass quick on lo0 all
+ pass quick on $management all
+-pass quick on $free proto tcp to { <whitelist> } all
++#pass quick on $free proto tcp to { <whitelist> } all
+ 
+ #Protection contre les paquets illogiques
+ antispoof log for sis0
+@@ -99,12 +101,12 @@
+ # ICMP
+ pass in proto icmp
+ 
+-# TCP
++# TCP_port
+ pass in on $free proto tcp to port $tcp_port
+ pass in on $sfr proto tcp to port $tcp_port
+ pass in on $new_fai proto tcp to port $tcp_port
+ 
+-# UDP
++# UDP_port
+ pass in on $free proto udp to port $udp_port 
+ pass in on $sfr proto udp to port $udp_port 
+ pass in on $new_fai proto udp to port $udp_port 
+
+
+======
+/etc/pwd.db SHA-256 checksums
+======
+OLD: 011cb1dffdeb7de5f8266cea3e3724a9549efbc60dbf44a0e3c444d1a0827a31
+NEW: 134470b662164b2a4b15afe22f8b0a7cfdeea12384af6a349a6802aae094c6cb
+
+======
+/etc/spwd.db SHA-256 checksums
+======
+OLD: 2642137fc15925761eb1a074977cdc663e67b33d6497cd3350f392791053b0c3
+NEW: 58455891ef42567d66391bfbe1dc9f2508672327b472ad0fb99abb243397d64c
+
+======
+Package list changes (-OLD  +NEW)
+======
+--- /var/backups/pkglist.current	Tue Nov 18 01:32:21 2014
++++ /var/backups/pkglist	Tue Dec  2 01:33:53 2014
+@@ -13,6 +13,7 @@
+ git-1.8.5.3         GIT - Tree History Storage Tool
+ glib2-2.38.2p6      general-purpose utility library
+ graphite2-1.2.4     rendering for complex writing systems
++gsed-4.2.2p0        GNU stream editor
+ harfbuzz-0.9.25     text shaping library
+ libelf-0.8.13p1     read, modify, create ELF files on any arch
+ libffi-3.0.9p6      Foreign Function Interface
+

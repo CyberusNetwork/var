@@ -1,0 +1,5 @@
+Dec  3 13:00:03 cyberus newsyslog[9635]: logfile turned over
+Dec  3 13:00:06 cyberus syslogd: restart
+Dec  3 14:00:04 cyberus syslogd: restart
+Dec  3 15:00:05 cyberus syslogd: restart
+Dec  3 16:00:05 cyberus syslogd: restart

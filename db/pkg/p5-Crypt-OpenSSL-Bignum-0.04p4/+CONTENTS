@@ -1,0 +1,41 @@
+@comment $OpenBSD: PLIST,v 1.2 2004/09/15 18:36:01 espie Exp $
+@name p5-Crypt-OpenSSL-Bignum-0.04p4
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.5/packages/i386/p5-Crypt-OpenSSL-Bignum-0.04p4.tgz
+@signer openbsd-55-pkg
+@digital-signature signify:2014-03-06T00:39:57Z:RWQQC1M9dhm/ttm5TR6Fw8GyRK7ESJ6tTvYPHfC5FUSpxQbLhb1HfvHK6b40Ia8iDmwsF1y7UbDHAijP+vrog8jntTG7nuL6CAE=
+@option manual-installation
+@comment pkgpath=security/p5-Crypt-OpenSSL-Bignum cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha cWxZoLPaS6Hp+4vmRH+EogQAsF4UMo+C1TYFpTTX3Tw=
+@size 641
+@wantlib c.73.1
+@wantlib crypto.23.0
+@wantlib perl.14.0
+@cwd /usr/local
+libdata/perl5/site_perl/i386-openbsd/
+libdata/perl5/site_perl/i386-openbsd/Crypt/
+libdata/perl5/site_perl/i386-openbsd/Crypt/OpenSSL/
+libdata/perl5/site_perl/i386-openbsd/Crypt/OpenSSL/Bignum/
+libdata/perl5/site_perl/i386-openbsd/Crypt/OpenSSL/Bignum.pm
+@sha ECk6JCw3ztcpmhucmru6uy3yb620idbkZ4RIDZMC4r0=
+@size 6475
+libdata/perl5/site_perl/i386-openbsd/Crypt/OpenSSL/Bignum/CTX.pm
+@sha +6EZ0jDY5yqi8twfXnkIuuVfpr7j6ufGmGTjXvd0Xy4=
+@size 748
+libdata/perl5/site_perl/i386-openbsd/auto/
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/Bignum/
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/Bignum/Bignum.bs
+@sha 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+@size 0
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/Bignum/Bignum.so
+@sha xiDLLuOGkpHkjVcMoGbnAMe0Z3yDPSKs2rDAKYlBL10=
+@size 28017
+@man man/man3p/Crypt::OpenSSL::Bignum.3p
+@sha tyFrJqm9rkXudnFAvDT55LAGGp+Qxo7n6Es6ZOmyQIc=
+@size 10531
+@man man/man3p/Crypt::OpenSSL::Bignum::CTX.3p
+@sha j7PrCz1PbTKQtqSqvjgYuncp6OiwmWpbzl9YY30NdxM=
+@size 4274

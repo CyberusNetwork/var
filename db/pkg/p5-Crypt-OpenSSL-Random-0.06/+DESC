@@ -1,0 +1,7 @@
+routines for accessing the OpenSSL prng
+This module provides the ability to seed and query the OpenSSL
+library's pseudo-random number generator.
+
+Maintainer: The OpenBSD ports mailing-list <ports@openbsd.org>
+
+WWW: http://search.cpan.org/dist/Crypt-OpenSSL-Random/

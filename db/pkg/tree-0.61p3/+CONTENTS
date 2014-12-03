@@ -1,0 +1,20 @@
+@comment $OpenBSD: PLIST,v 1.3 2011/06/23 22:50:29 naddy Exp $
+@name tree-0.61p3
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.5/packages/i386/tree-0.61p3.tgz
+@signer openbsd-55-pkg
+@digital-signature signify:2014-03-06T00:45:59Z:RWQQC1M9dhm/tvlpOqr1OJJYtRJkOglGXj1NEPH1yeH49V0b/0RMeTOTqUOGV5i352Lmfnfpr+yFSO9Njf8Vd+sA2+jJ6GUcDgU=
+@option manual-installation
+@comment pkgpath=sysutils/tree cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha 1a1hpi+vMC1phcaCoDy6EpUnRMR91zx+trUffrR9fZA=
+@size 275
+@conflict openmotif-demos-*
+@wantlib c.73.1
+@cwd /usr/local
+@bin bin/tree
+@sha vNiatPLZRtJytAo9OfGu40MVAK62oBcUBLGUkRtVJ9c=
+@size 10032
+@man man/man1/tree.1
+@sha oRRUOzAenxzk7HvjJp51Boql4K9irFW0i/hTGmKpk7k=
+@size 2294

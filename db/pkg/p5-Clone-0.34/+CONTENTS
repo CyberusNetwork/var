@@ -1,0 +1,31 @@
+@comment $OpenBSD: PLIST,v 1.1.1.1 2004/12/02 06:47:14 kevlo Exp $
+@name p5-Clone-0.34
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.5/packages/i386/p5-Clone-0.34.tgz
+@signer openbsd-55-pkg
+@digital-signature signify:2014-03-06T00:39:54Z:RWQQC1M9dhm/th9fGHXX2kuIkwZ6smv7VHOoirm4IZ4bKyNzN4/JuW0n+sn3vXUgGeGDYa8F7Qn+dDKtf83Vxe981BBvxe3Kfgc=
+@comment pkgpath=devel/p5-Clone cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha 1QypvpaBT05129GfH8TXxlYcMpuymgnX1pXVpQtl3lE=
+@size 273
+@wantlib c.73.1
+@wantlib perl.14.0
+@cwd /usr/local
+libdata/perl5/site_perl/i386-openbsd/
+libdata/perl5/site_perl/i386-openbsd/Clone.pm
+@sha P99/Nq9hQvYoc/uj4Ji9NZxJ6pVgAgtROU/Ktl5P3fE=
+@size 2050
+libdata/perl5/site_perl/i386-openbsd/auto/
+libdata/perl5/site_perl/i386-openbsd/auto/Clone/
+libdata/perl5/site_perl/i386-openbsd/auto/Clone/Clone.bs
+@sha 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+@size 0
+libdata/perl5/site_perl/i386-openbsd/auto/Clone/Clone.so
+@sha 1NVVM79YA+41JOTwzYibCTC7WUnS6fwPcuEcWA2S/hE=
+@size 12041
+libdata/perl5/site_perl/i386-openbsd/auto/Clone/autosplit.ix
+@sha 4qf+OAJhthgIP6oN3NaPvRyf4/1t82bJEotez/sQezM=
+@size 84
+@man man/man3p/Clone.3p
+@sha 4XqOE7fYh24LT4lY5M6rGj15Yk3bilhe0vulP48Rk8Q=
+@size 5526

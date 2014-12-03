@@ -1,0 +1,42 @@
+@comment $OpenBSD: PLIST,v 1.6 2013/11/06 09:05:25 jca Exp $
+@name p5-Crypt-OpenSSL-DSA-0.14
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.5/packages/i386/p5-Crypt-OpenSSL-DSA-0.14.tgz
+@signer openbsd-55-pkg
+@digital-signature signify:2014-03-06T00:39:57Z:RWQQC1M9dhm/thxfc+UtvBpn1Tea3UBk4K3ND+23gzf4VvCRvq/UwU1BHRXc9sFeVEjRzgLdBOB2rh5T6hJ8PRAiluoDr2ZufgI=
+@option manual-installation
+@comment pkgpath=security/p5-Crypt-OpenSSL-DSA cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha eQ5fnADZa8eNfYFHixyXgZKq67OcWAdTxGKe8iqOgtw=
+@size 264
+@wantlib c.73.1
+@wantlib crypto.23.0
+@wantlib perl.14.0
+@wantlib ssl.20.0
+@cwd /usr/local
+libdata/perl5/site_perl/i386-openbsd/
+libdata/perl5/site_perl/i386-openbsd/Crypt/
+libdata/perl5/site_perl/i386-openbsd/Crypt/OpenSSL/
+libdata/perl5/site_perl/i386-openbsd/Crypt/OpenSSL/DSA/
+libdata/perl5/site_perl/i386-openbsd/Crypt/OpenSSL/DSA.pm
+@sha NYhD9sR8M67cdLP7tRzTmpZiVfPnUSyziAIboFga9Cg=
+@size 5079
+libdata/perl5/site_perl/i386-openbsd/Crypt/OpenSSL/DSA/Signature.pod
+@sha bRNVENx1KkHzN2JL2E95+3TXKj9rCVQ/Zh3LRQhoPSU=
+@size 1142
+libdata/perl5/site_perl/i386-openbsd/auto/
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/DSA/
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/DSA/DSA.bs
+@sha 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+@size 0
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/DSA/DSA.so
+@sha Ys1pTRNNDE/idlr3JlYVrTvU3t31nkcP24UH7VugwZU=
+@size 29848
+@man man/cat3p/Crypt::OpenSSL::DSA.0
+@sha 2SZ3EiFapQsdFJHZrOjx3IA54YufsIUExSoIF5YKnvc=
+@size 5513
+@man man/cat3p/Crypt::OpenSSL::DSA::Signature.0
+@sha yPHDXb8dSR2OpGGGeLjRfBbusFWexnKGr63GPViRK48=
+@size 2072

@@ -1,0 +1,125 @@
+@comment $OpenBSD: PLIST,v 1.15 2011/03/15 19:22:08 naddy Exp $
+@name bash-4.2.45p0
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.5/packages/i386/bash-4.2.45p0.tgz
+@signer openbsd-55-pkg
+@digital-signature signify:2014-03-06T00:31:43Z:RWQQC1M9dhm/tpttls9IgGoYaeoDTMariitmCrFTdYhR326A/0OvsluLgcGvJK1XUOlVzGUyCvMVkJAcIEeJv3hv6VcTYymO6AM=
+@option manual-installation
+@comment pkgpath=shells/bash cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha ejt4yQi2gcBVBScUrLRGotL7xxUZqp9J0Q79+pBCPY4=
+@size 505
+@pkgpath shells/bash,static
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend devel/gettext:gettext->=0.10.38:gettext-0.18.2p4
+@wantlib c.73.1
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@wantlib termcap.14.0
+@cwd /usr/local
+@shell bin/bash
+@sha dUuwGVcH/HTvVHEdLRPQy+2y0BeuVsPAi3+OaE7+KWk=
+@size 826864
+bin/bashbug
+@sha ARUHG5WmStGLiRlrekngmJtAcxOeq+Sd62dD5OpU9zo=
+@size 6848
+@info info/bash.info
+@sha jO7DozCP79GOhutUoRT8DMlQ4jLSoyjzp8CRTbCTF7Q=
+@size 454678
+@man man/man1/bash.1
+@sha IDgXdl9I9r9btcWFN6TJQINCF06m0CqmTIkHUbx+i/4=
+@size 282696
+@man man/man1/bashbug.1
+@sha sZtSJv3QG4kJwrwhA5u9qSvokLtrDO7D90XBnwKzfMI=
+@size 1817
+share/locale/af/
+share/locale/af/LC_MESSAGES/
+share/locale/af/LC_MESSAGES/bash.mo
+@sha PZ6TRgUAdVL7uzO1lzQWy3ooqmbzQwLBwXx9PX6qH9U=
+@size 1231
+share/locale/bg/LC_MESSAGES/bash.mo
+@sha rAoYUqz8mmZVdIPmtpMgLADZBiV8qdKrAmMDpyS6jEA=
+@size 34844
+share/locale/ca/LC_MESSAGES/bash.mo
+@sha PFXTEm/Pc/bfpOa/xbpiPAOPXDo8MefHoKvscpAwciY=
+@size 9819
+share/locale/cs/LC_MESSAGES/bash.mo
+@sha Z5qNvihHQraxpZ1tPhyX2PEgoCZj6P8GizfPP/C9S88=
+@size 134220
+share/locale/de/LC_MESSAGES/bash.mo
+@sha c/WOZG77vTDQUHnWCLA2UVN5AvjYpveZMdp0brCR/SA=
+@size 45776
+share/locale/en@boldquot/LC_MESSAGES/bash.mo
+@sha 4LeiH7jGWIQNwg//4KZFK5ZkzK1aC67fJxQla+wDDDI=
+@size 161163
+share/locale/en@quot/LC_MESSAGES/bash.mo
+@sha jgo6CNi/y/xAPvoqU64x4zTYpNJNxrOBLXDtr4/StSg=
+@size 159611
+share/locale/eo/LC_MESSAGES/bash.mo
+@sha 4+/PKAm7slRNmJnXpSC4HrwHaUoVmCTd9g+bECwFb/Q=
+@size 116790
+share/locale/es/LC_MESSAGES/bash.mo
+@sha AQ+CbPOVmyHROsVtuzE5J4VPqlxDRoa5waLDzPkEXhY=
+@size 133409
+share/locale/et/LC_MESSAGES/bash.mo
+@sha 3ctsU8z04No9tRDE8Ng80Or550h7zJMkW52Bnw+dMEY=
+@size 12257
+share/locale/fi/LC_MESSAGES/bash.mo
+@sha uvwsB0vBnq//1It0lm2E5yppOLKGpENcecaY1JVPBt0=
+@size 120517
+share/locale/fr/LC_MESSAGES/bash.mo
+@sha EWVAxuZJG7kmAKm2I4AZxPF1fJSJAcMm/szQQEhBn2E=
+@size 138545
+share/locale/ga/LC_MESSAGES/bash.mo
+@sha apSxJgu6Pjnbzpq3YN4qoIRnl+n/2aGy1sPhA7Lj9r4=
+@size 62011
+share/locale/hu/LC_MESSAGES/bash.mo
+@sha SHp4/i19G7W+LiqWzBF2IM907vh3RsXwmqoI6HO4rF8=
+@size 134317
+share/locale/id/LC_MESSAGES/bash.mo
+@sha SvtQSzR9H0VlyqRnEZ0e2gP2di8Vm7iN+Oi6b0to3x8=
+@size 131500
+share/locale/ja/LC_MESSAGES/bash.mo
+@sha uAaHlGwVqiKSBRQO/Tgf2rqOpH2rpt8UpBvuV+gvDrw=
+@size 145905
+share/locale/lt/
+share/locale/lt/LC_MESSAGES/
+share/locale/lt/LC_MESSAGES/bash.mo
+@sha dHRkqHMzBZhcrUyUct3R8wUDs/S7Ce+zG13nxenVCa4=
+@size 30079
+share/locale/nl/LC_MESSAGES/bash.mo
+@sha owb2Nb1pW01+7pGeni1+vMUhtjGp+YgrHKn8b6SXXiM=
+@size 131870
+share/locale/pl/LC_MESSAGES/bash.mo
+@sha 5rSGNacOWnInHdTusH81NAY9bOPUqeKAxG9BgWIMl88=
+@size 24983
+share/locale/pt_BR/LC_MESSAGES/bash.mo
+@sha m+lNBqSlKuDl703nQHn/GyEEGy041Y/pNABiXSZo2SQ=
+@size 9658
+share/locale/ro/LC_MESSAGES/bash.mo
+@sha JB14YSiFFwZm4hWc62nb0bv7IbRVKLWv4bCsUZPK7Bc=
+@size 9415
+share/locale/ru/LC_MESSAGES/bash.mo
+@sha fYP8V68u/PSbvf/UPSkQqfeTkMCRKWTjFSa1mTmD/7o=
+@size 9142
+share/locale/sk/LC_MESSAGES/bash.mo
+@sha ITEBOeHkW6I1pqIkUAcqUU2cjineIAkjUvbhIKsxL1E=
+@size 132621
+share/locale/sv/LC_MESSAGES/bash.mo
+@sha HVjDA/yIPio50EedkvC9aMLv12xlU10+JJdehptifqo=
+@size 128852
+share/locale/tr/LC_MESSAGES/bash.mo
+@sha XMCna1KELcT9MyK8B7bdQxcSynbeULArDfV/PdQm0SM=
+@size 24589
+share/locale/uk/LC_MESSAGES/bash.mo
+@sha flVGcbgG/QdBarb5xeoWSBMHC7kEkgdgC6wLLmP/ACo=
+@size 138956
+share/locale/vi/LC_MESSAGES/bash.mo
+@sha BokNw1t6gXURkTNw8R//ajiOLOiMprByqnvGbdClT2k=
+@size 142862
+share/locale/zh_CN/LC_MESSAGES/bash.mo
+@sha bzZL+0S7qm5vDo76eGSkcNNVWbxjr1MH39n9YjPABBU=
+@size 123267
+share/locale/zh_TW/LC_MESSAGES/bash.mo
+@sha dcmwPSK4wbVV/PPFFFuacB/tyndXZ7Wo+hzfbtgOJLM=
+@size 5993

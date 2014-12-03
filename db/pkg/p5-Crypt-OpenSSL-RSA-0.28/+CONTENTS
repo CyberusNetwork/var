@@ -1,0 +1,46 @@
+@comment $OpenBSD: PLIST,v 1.5 2006/12/29 10:19:52 jasper Exp $
+@name p5-Crypt-OpenSSL-RSA-0.28
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.5/packages/i386/p5-Crypt-OpenSSL-RSA-0.28.tgz
+@signer openbsd-55-pkg
+@digital-signature signify:2014-03-06T00:39:57Z:RWQQC1M9dhm/ttyoUkEFiM8VawdBKgAKTwGW69y4Eu2T6ow/h5FCYdihmcMrCAm+RT64rXEvPT/FHtGKUKO0oD7yhv6giZoYIgY=
+@option manual-installation
+@comment pkgpath=security/p5-Crypt-OpenSSL-RSA cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha Mh3x8SnpsLku1h5J1AwlIzxLjNErjiPGztvKVajRaU8=
+@size 1135
+@depend security/p5-Crypt-OpenSSL-Bignum:p5-Crypt-OpenSSL-Bignum->=0.03:p5-Crypt-OpenSSL-Bignum-0.04p4
+@depend security/p5-Crypt-OpenSSL-Random:p5-Crypt-OpenSSL-Random->=0.03:p5-Crypt-OpenSSL-Random-0.06
+@wantlib c.73.1
+@wantlib crypto.23.0
+@wantlib perl.14.0
+@wantlib ssl.20.0
+@cwd /usr/local
+libdata/perl5/site_perl/i386-openbsd/Crypt/OpenSSL/RSA.pm
+@sha U8AHkbyULHh6Uf2JFf2k4joh2E3fBAnhyWZyZweXzAw=
+@size 8427
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/RSA/
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/RSA/RSA.bs
+@sha 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+@size 0
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/RSA/RSA.so
+@sha 6D2M0oVpEjHTcY5Kz0mEIloJ3C625W2fgsqWO8/ev4M=
+@size 33523
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/RSA/autosplit.ix
+@sha 7f1Tcb0oTZ6aiXYfzqBkZNg0Kbh6gND7ByBuGASVGiA=
+@size 230
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/RSA/get_key_parameters.al
+@sha 9bjNxGik2ApJ5OAA/66/I2+RzcK5J+Z70DfqwfDopqc=
+@size 469
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/RSA/import_random_seed.al
+@sha IqqpEneDOHDBJQNfTG48hhNmEjNTlM6UR+VhprTWrQM=
+@size 462
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/RSA/new_key_from_parameters.al
+@sha 4+JSSOIJUHXl9Pky0wjggcT+3llZ0U1HeyX8Tz/G/wQ=
+@size 523
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/RSA/new_public_key.al
+@sha YI2tbOyzyLVyMPvyC04z7Sw6ZhcENhrdS2kLGkYtvAQ=
+@size 707
+@man man/man3p/Crypt::OpenSSL::RSA.3p
+@sha wKxdLqe0H/r6qG3EorFyPOIE/g8z+TqfJ4/8x70s4Ek=
+@size 12523

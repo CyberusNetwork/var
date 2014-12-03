@@ -1,0 +1,35 @@
+@comment $OpenBSD: PLIST,v 1.14 2013/04/22 16:00:11 krw Exp $
+@name rsync-3.1.0
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.5/packages/i386/rsync-3.1.0.tgz
+@signer openbsd-55-pkg
+@digital-signature signify:2014-03-06T00:43:03Z:RWQQC1M9dhm/tilLQM/EkhOKxZdB79ebIsTdIIsJn0DqxqNj0kQcatpHkUw4uOXgwET6bHlHtKuFranT4l/5+HjBS95I3rJbvQk=
+@comment pkgpath=net/rsync cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha LAbtPVQmAi4tQglUt1W4GazdjBGYsVzJkHlnbo9U7Vs=
+@size 862
+@wantlib c.73.1
+@wantlib z.5.0
+@newgroup _rsync:669
+@newuser _rsync:669:_rsync:daemon:rsync Daemon:/var/empty:/sbin/nologin
+@cwd /usr/local
+bin/rrsync
+@sha HTxqA6k14bEzGOYhmyArLW5chGZNvxgSx9uLh+5Yf3k=
+@size 6695
+@bin bin/rsync
+@sha wMIZmjW9SrFDsW+N2OcIK9yw+9dHVrY559VNTNWB7bU=
+@size 388452
+@man man/man1/rsync.1
+@sha bENbQM8p03CISJX+wdt7GI7zysmNoZEXaEkeYYd7cYc=
+@size 184682
+@man man/man5/rsyncd.conf.5
+@sha 84TgKqcGdexveusL/5J/b4q4wpxBvf01Gvl7TVVEXGY=
+@size 47788
+share/doc/rsync/
+share/doc/rsync/tech_report.tex
+@sha qTvhm82bv/gf6pWPCrqADI0xl4Ti0vFugOU4TU+gmp0=
+@size 14675
+@extra /etc/rsyncd.conf
+@rcscript /etc/rc.d/rsyncd
+@sha GovTcCSuNVKq+TaCobeE4B+rx05ZYUhuW2U9tOz/jfs=
+@size 111

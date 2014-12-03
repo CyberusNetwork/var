@@ -1,0 +1,38 @@
+@comment $OpenBSD: PLIST,v 1.3 2004/09/15 18:36:01 espie Exp $
+@name p5-Crypt-OpenSSL-Random-0.06
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.5/packages/i386/p5-Crypt-OpenSSL-Random-0.06.tgz
+@signer openbsd-55-pkg
+@digital-signature signify:2014-03-06T00:39:57Z:RWQQC1M9dhm/toweHr0HzjU8mL5zQCbpA9xJDX7igqa/FQ3to69UTdTBcYNwKETK7qbvJqwrEGWt4Cz3jw9gZq6Wf5qaGFW4Nw0=
+@option manual-installation
+@comment pkgpath=security/p5-Crypt-OpenSSL-Random cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha FcpST1SZp+cbRA1mWxN6yhefa9odfXAxun8PiovbMl8=
+@size 265
+@wantlib c.73.1
+@wantlib crypto.23.0
+@wantlib perl.14.0
+@wantlib ssl.20.0
+@cwd /usr/local
+libdata/perl5/site_perl/i386-openbsd/
+libdata/perl5/site_perl/i386-openbsd/Crypt/
+libdata/perl5/site_perl/i386-openbsd/Crypt/OpenSSL/
+libdata/perl5/site_perl/i386-openbsd/Crypt/OpenSSL/Random.pm
+@sha gJiK3up0/DI9o6ug2F9+Ujg6MdXRXxaU0oysWqJd2jc=
+@size 3211
+libdata/perl5/site_perl/i386-openbsd/auto/
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/Random/
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/Random/Random.bs
+@sha 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+@size 0
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/Random/Random.so
+@sha svsAQ55pqic0cS/ETCnZkaQ3iLHrZRTFkrCTs15uOeU=
+@size 12144
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/Random/autosplit.ix
+@sha 6g/3IXWlrtHBC+7/0EAmh2Cu5wHfuNW+PDvWIF2vpN8=
+@size 99
+@man man/man3p/Crypt::OpenSSL::Random.3p
+@sha c1EGbr6bzuLaUoRmjbjcJwpDKF1OAUwMAyenaNqsMKc=
+@size 6774

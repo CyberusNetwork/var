@@ -1,0 +1,1041 @@
+@comment $OpenBSD: PLIST-main,v 1.6 2013/09/07 13:49:42 sthen Exp $
+@name php-5.4.24-ap2
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.5/packages/i386/php-5.4.24-ap2.tgz
+@signer openbsd-55-pkg
+@digital-signature signify:2014-03-06T00:41:44Z:RWQQC1M9dhm/tvXcwHwfWiymdD8ehXSupupJTPftvjnqEI3l9Mi7nAJ8OXy3I8B7k13aVKbhlP/JxpFaiFs5+lIx240C+I/riAM=
+@option no-default-conflict
+@comment pkgpath=lang/php/5.4,-main,ap2 cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha JaEeiIHDOqHd2/RWg0OCUPYAccTc9UIlBohM8fXg00c=
+@size 1081
++DISPLAY
+@sha x9kDZe1GSIJbbBNcXPp7xD7eqERq/osXv2W31wUaXqE=
+@size 315
++UNDISPLAY
+@sha LU2H6F6VY0rQquQkVQz+IlDcwzOQ7vhNX4RN9AEiss8=
+@size 152
+@conflict php->=5.4,<5.5
+@conflict php5-core->=5.2
+@conflict php5-core-fastcgi->=5.2
+@conflict php-pdo_sqlite->=5.4,<5.5
+@conflict php5-pdo_sqlite->=5.2
+@conflict pecl-phar-*
+@pkgpath lang/php/5.2
+@pkgpath lang/php/5.2,-dbase
+@pkgpath lang/php/5.2,-main
+@pkgpath lang/php/5.2,-mhash
+@pkgpath lang/php/5.2,-ncurses
+@pkgpath lang/php/5.2,-sqlite
+@pkgpath lang/php/5.4
+@pkgpath lang/php/5.4,-pdo_sqlite
+@pkgpath sysutils/pecl-fileinfo
+@pkgpath www/pecl-phar
+@depend devel/gettext:gettext->=0.10.38:gettext-0.18.2p4
+@depend mail/femail,-chroot:femail-chroot-*:femail-chroot-0.98p2
+@depend textproc/libxml,-main:libxml-*:libxml-2.9.1
+@wantlib asn1.20.0
+@wantlib c.73.1
+@wantlib com_err.20.0
+@wantlib crypto.23.0
+@wantlib gssapi.7.1
+@wantlib heimbase.1.0
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@wantlib krb5.20.0
+@wantlib m.9.0
+@wantlib pthread.18.0
+@wantlib roken.1.0
+@wantlib ssl.20.0
+@wantlib wind.1.0
+@wantlib xml2.15.1
+@wantlib z.5.0
+@cwd /usr/local
+@exec install -d /etc/php-5.4/
+@exec install -d /etc/php-5.4.sample/
+@mode 1700
+@owner www
+@group www
+@sample /var/www/tmp/
+@extraunexec rm -fr /etc/php-5.4/
+@unexec-delete rm -fr /etc/php-5.4.sample/
+@mode
+@owner
+@group
+@bin bin/php-5.4
+@sha +FmfFByp/AMKhI9Fd15z4hUu8FDOMce5bNmU/TKQeis=
+@size 9208764
+bin/php-config-5.4
+@sha 9Y2TU+WBnDBmll21mL9KsWZuqpk9E0aB2bDYAUsHXjI=
+@size 4490
+bin/phpize-5.4
+@sha I00OjPoOrahmNR7WBMK36W7GMG002PulSV25nbOy39c=
+@size 4493
+lib/php-5.4/
+lib/php-5.4/libphp5.so
+@sha rzbMyT/Gc5Re1C17D0wy4O0zlJPFLyjO7SNkkiPcFCs=
+@size 9846088
+lib/php-5.4/modules/
+@man man/cat1/php-5.4.0
+@sha WeG0gpSMAwGviaLWdN3LWNqplZASnYUwqXQlyN3HtLw=
+@size 12622
+@man man/cat1/php-config-5.4.0
+@sha AWhV9qKMbPgkyrZSTWdfH739ryuAi0w3yMvn+3nWrAM=
+@size 2462
+@man man/cat1/phpize-5.4.0
+@sha nhz7iIIGi7xiz6OwQdfAiBVdUmEOATRSjGK6uVqMZlw=
+@size 1448
+share/examples/php-5.4/
+share/examples/php-5.4/php.conf
+@sha Geh7EVkVjPhg9kIjPiywsOVTevMCEqkBdwRJ62hsUH0=
+@size 247
+@sample /var/www/conf/modules.sample/php-5.4.conf
+share/examples/php-5.4/php.ini-development
+@sha V04bOHbKAknQyB4lTd4S1rGuxc+zxHDPkcSvnFGT76E=
+@size 66736
+share/examples/php-5.4/php.ini-production
+@sha o3RQAtuP5ppXN31KZO5AO7m9xYQXLjAUZiVlFUXMZWA=
+@size 66950
+@sample /etc/php-5.4.ini
+share/php-5.4/
+share/php-5.4/build/
+share/php-5.4/build/Makefile.global
+@sha NdrHCxAT7XUtgfLYkEp0sQzDBXCJmdpQfvwAGUlLoJ4=
+@size 5574
+share/php-5.4/build/acinclude.m4
+@sha F/kEN+kOxxMlPpfT0ijNL2uQHfRIeiacMDm8+yaqY1M=
+@size 79640
+share/php-5.4/build/config.guess
+@sha zNC50Y3kjrquq5nGsCEcygnCDrXiHiR6o1/MlYggQ7c=
+@size 44939
+share/php-5.4/build/config.sub
+@sha Ql5tt+i7StfEaQJ7iGr1OIZcb7Slh/1ybokCH6K6eis=
+@size 35698
+share/php-5.4/build/libtool.m4
+@sha FL8PyajOpir0YlGg3jcD/yVOFu9S3gpQUz7kaEaF5CY=
+@size 230324
+share/php-5.4/build/ltmain.sh
+@sha DxFw5yBQ6OIEljLywJSXbdMMUb2AvQBEM0h82iqolkY=
+@size 199728
+share/php-5.4/build/mkdep.awk
+@sha 8lIYq2hf8gom/5ga8USGeJHKpcWsVxG+dhbCPAowlfA=
+@size 2225
+share/php-5.4/build/phpize.m4
+@sha mmY6vqZHg+YdcM/7SK3masiGz0IW2ZRw8TJKotsfrVs=
+@size 4690
+share/php-5.4/build/run-tests.php
+@sha cB2Oj+XxHrskvLy8oIm7AWifsvXXgPDIcJtbPsL0Nyg=
+@size 79262
+share/php-5.4/build/scan_makefile_in.awk
+@sha PdA3rb4oGiikDEOq27KckYb762X2pnmxUpg+0lpbzoQ=
+@size 410
+share/php-5.4/build/shtool
+@sha x47LgUmCh3MouEHUmo3z8vFmRXO0IFEo8pXo4IWAFwM=
+@size 65469
+share/php-5.4/include/
+share/php-5.4/include/TSRM/
+share/php-5.4/include/TSRM/TSRM.h
+@sha cS/s+z2vBfP58w+/eBpnRt+pUKLM/Eheslf580sbd1I=
+@size 5492
+share/php-5.4/include/TSRM/readdir.h
+@sha P/r/t4kEtfkpwN89/Pp8BVKnTWbbZne6OU2QTNdKnG0=
+@size 1102
+share/php-5.4/include/TSRM/tsrm_config.h
+@sha +aQ9BgnXl5deu+C3d84KSa+Abbm38V6qyqmD01QCeho=
+@size 32
+share/php-5.4/include/TSRM/tsrm_config.w32.h
+@sha mK/b/PiLEAlYXwztiMd+eSlEIJSxithQYS7UFf855SQ=
+@size 328
+share/php-5.4/include/TSRM/tsrm_config_common.h
+@sha dAJz+w/Jbsn+q37LITfohRAKEhwquicsoyb2A6R/dms=
+@size 1462
+share/php-5.4/include/TSRM/tsrm_nw.h
+@sha IANISt6fsXzdqOiuwTY2QQR8rvs+xmeb6Of6cYgmeg8=
+@size 1384
+share/php-5.4/include/TSRM/tsrm_strtok_r.h
+@sha UVSJv2aW8g8bucImMr90slxc97RWR/CS/LneE5YvvTY=
+@size 115
+share/php-5.4/include/TSRM/tsrm_virtual_cwd.h
+@sha yy7DMpcX9TJU6IIF+odcEUqzjHIKzVbvlGzEALli8Xs=
+@size 12028
+share/php-5.4/include/TSRM/tsrm_win32.h
+@sha +aA3MWpJzd7NQxFB6zxcYHykVdkLCXKmRP8Rz2kIJHU=
+@size 3217
+share/php-5.4/include/Zend/
+share/php-5.4/include/Zend/zend.h
+@sha HGe5sfQTRnxn9MJjf0BUCnMhZ4Ace4GgIfOm6qMgO6Q=
+@size 26394
+share/php-5.4/include/Zend/zend_API.h
+@sha VkBsxtONnJvHUsGcsIRsGoB5vODowWQiT4JAu79fPFU=
+@size 40737
+share/php-5.4/include/Zend/zend_alloc.h
+@sha FFfwfES7cz3o9jtdW9LXLXPSss0Udr87wUHrt2VIwEM=
+@size 12014
+share/php-5.4/include/Zend/zend_build.h
+@sha kXZtz9ihgPreZe1IFVGfhvq4TFTydqC8myScDnTUhIE=
+@size 1627
+share/php-5.4/include/Zend/zend_builtin_functions.h
+@sha kdF+18X+WttjuJ6rcVEJK73TvgLwzdj2I70hb8COZzE=
+@size 1627
+share/php-5.4/include/Zend/zend_closures.h
+@sha SUxHmFm8FFCsnPTm4mpVLnDCSf0OSDXUc8nbqwZWzJk=
+@size 1901
+share/php-5.4/include/Zend/zend_compile.h
+@sha SBRLNzeQUpNE0e/llGxt4ISMTXrEpbvpDY1e+f05yiE=
+@size 32886
+share/php-5.4/include/Zend/zend_config.h
+@sha hfKzv67ELPUKNr0vsHuyvqTd/Ner5qxLwh9YwJ0vELs=
+@size 107
+share/php-5.4/include/Zend/zend_config.nw.h
+@sha l+eMXKqHtdU3fQwHyOH9jv28ssLeMFfSlYvrBzqv18M=
+@size 2502
+share/php-5.4/include/Zend/zend_config.w32.h
+@sha fEaUZQtlFRp86+8mizSJ3iJlRJqXseKcq2mVQz4lKvk=
+@size 3070
+share/php-5.4/include/Zend/zend_constants.h
+@sha UOhgOgNI+z5uvv7ywVRjej/3ATxnYoQ3RltYF/fZqls=
+@size 5101
+share/php-5.4/include/Zend/zend_dtrace.h
+@sha 2P/RU68WRmtr54hQU0k1nVIq04+/SMBw2HJXsSnbf3Q=
+@size 1993
+share/php-5.4/include/Zend/zend_dynamic_array.h
+@sha 9ELoERf0sK2XPLMG7iHxSmjeQhbSh4NrxxHxx9ciyQU=
+@size 1906
+share/php-5.4/include/Zend/zend_errors.h
+@sha roF+Va46wliLJo+8Q/zx3kAtVu6sN3DycDTSsZdHul8=
+@size 2159
+share/php-5.4/include/Zend/zend_exceptions.h
+@sha w8xarnmCuIxKCUxFHhQKflhcCYELtk7UQhcRfSRX8T0=
+@size 3021
+share/php-5.4/include/Zend/zend_execute.h
+@sha 8VZho0DHs15MTWJHmt/+xgkPuKoCM3AnOzno+3qHaLs=
+@size 14934
+share/php-5.4/include/Zend/zend_extensions.h
+@sha PottTlpoBKtvyZoRU4lx00JtrA54ns7eKPtKfjPknzE=
+@size 4608
+share/php-5.4/include/Zend/zend_float.h
+@sha 9svbUn+U7/rdDrqdumVB+zMer78BdJnDlrsUnK5hSCA=
+@size 15657
+share/php-5.4/include/Zend/zend_gc.h
+@sha K9sJtu7G53698/mrDE3gtj7F6G2ZzHJV0Y8KBYXNPVo=
+@size 7407
+share/php-5.4/include/Zend/zend_globals.h
+@sha 06UpKT4UXiVe6OOQVvEvxX6YUF0uVD9Pw0ij/Vy8LGs=
+@size 7338
+share/php-5.4/include/Zend/zend_globals_macros.h
+@sha hvxo8QeTimS1OXTq9jltDvVM3uNTt4zFYAj/WdlNtgg=
+@size 3226
+share/php-5.4/include/Zend/zend_hash.h
+@sha y8sX79zxL41isdsdvBzSnHwC6wds0bqKX1oNuDIMFxk=
+@size 17507
+share/php-5.4/include/Zend/zend_highlight.h
+@sha GLg6ooIk2a9kPNTx6t9dXCkfZjaCzBs1/0u3aP5XQ10=
+@size 2419
+share/php-5.4/include/Zend/zend_indent.h
+@sha 9VutiNOJAhCUp4yGCmUL8c+QAZb+AyExSlp+ez0VhPU=
+@size 1470
+share/php-5.4/include/Zend/zend_ini.h
+@sha zHzIbWqzfGrTF3B/6/eJhjwvV4/EBRRT6+QbpmyFI+E=
+@size 10003
+share/php-5.4/include/Zend/zend_ini_parser.h
+@sha 9MGmGu2W1Z0EXMLWsgL72E4uzLBKdTbti7bgj0PxBpk=
+@size 3150
+share/php-5.4/include/Zend/zend_ini_scanner.h
+@sha MIyde7ccRWGE9F5DmAHXL0o6yM92QEG/R3sARQdavZg=
+@size 1951
+share/php-5.4/include/Zend/zend_ini_scanner_defs.h
+@sha GXuVf6Ly3tQGmYSiKtGEo7Lc9TCibdh8siPXeI1pqWA=
+@size 254
+share/php-5.4/include/Zend/zend_interfaces.h
+@sha gG/XszqLi3W2kZDJ1QFIDLmnt5n+5vE3IigKPDMVooY=
+@size 4083
+share/php-5.4/include/Zend/zend_istdiostream.h
+@sha WVFXhVamVVCCdPuPFNNpddU9UYQU4xXsYTRwKbC8Eho=
+@size 1646
+share/php-5.4/include/Zend/zend_iterators.h
+@sha IURrWsNsT3u3V445Gnny63nWZ8oCNnPGbYM4ZtK+d9k=
+@size 3693
+share/php-5.4/include/Zend/zend_language_parser.h
+@sha /307T2ZAQKCuRbTBY1pwzLPiJK53z88ImZCvMD1y4IE=
+@size 8571
+share/php-5.4/include/Zend/zend_language_scanner.h
+@sha f2pO8Goqhcsmrr4IFSkOOxYq2g2QOweVv7dVXr1USXA=
+@size 2573
+share/php-5.4/include/Zend/zend_language_scanner_defs.h
+@sha nSx+D7L3z5yXHCGnPcuT8f8+6kEkuzeKZSayh43JDlc=
+@size 326
+share/php-5.4/include/Zend/zend_list.h
+@sha LVuCXqFb2fxiC9VOT0T++XNWip71+kwfePosZnENyyY=
+@size 5218
+share/php-5.4/include/Zend/zend_llist.h
+@sha AqYvXxUbumISF0TrVxJ9kmIDzn0guMPKNSkXj9v2N30=
+@size 3977
+share/php-5.4/include/Zend/zend_modules.h
+@sha b+hAq3s7fPB3DOD9g0tX5oUoefwVEmlIv8xkhJ+KR1Q=
+@size 5094
+share/php-5.4/include/Zend/zend_multibyte.h
+@sha 0JMvydGiXRqafmtwCNJ2K93sjzE5dVSbZvWU/l4ScBU=
+@size 5105
+share/php-5.4/include/Zend/zend_multiply.h
+@sha iZx5gakQmV7kQrcvwFQFIjdWE65yyz5q9Vslaz3sFTk=
+@size 2910
+share/php-5.4/include/Zend/zend_object_handlers.h
+@sha ohl4flno+HK3gTp23d3UKorXldK0qVjN4GFig4pdU94=
+@size 9419
+share/php-5.4/include/Zend/zend_objects.h
+@sha lLvvQ9muzoAPB7OEqXLjv7KrbcdY97YSnosny2VTfOs=
+@size 2215
+share/php-5.4/include/Zend/zend_objects_API.h
+@sha j+2m9gGTr3pPnUB5dIBpxwJ5CNaFjYmfvbw4tmL9AHk=
+@size 4387
+share/php-5.4/include/Zend/zend_operators.h
+@sha Z/5Jjt30YTC43WwH8ScQTaaD8JCUJJUJixWwkC7JXnk=
+@size 29304
+share/php-5.4/include/Zend/zend_ptr_stack.h
+@sha jjsNxACmIt9WcepNxwxxedknLxQgDJhewixPQzFeQts=
+@size 4203
+share/php-5.4/include/Zend/zend_qsort.h
+@sha obSZ+Y+Lu5xXAdIDQjTJRWBW3GtJKd6s3Sd+SCQgDK0=
+@size 1462
+share/php-5.4/include/Zend/zend_signal.h
+@sha XHBvs3413HnXrqN0W81FPoD6w/KttCccnUHCk2GJZOM=
+@size 4084
+share/php-5.4/include/Zend/zend_stack.h
+@sha /CGMQfihnOWnPAwCfnpe+Jz0sAzj0xqtswYGxIO3wTQ=
+@size 2381
+share/php-5.4/include/Zend/zend_static_allocator.h
+@sha pFuYqpjkmfAYT1JljEsQMmtf4YWSQ41uOm3UbNomR/8=
+@size 1857
+share/php-5.4/include/Zend/zend_stream.h
+@sha 5Tf2/4MJtP7VCE4AH+BhgCWsifRikfeUwqPktcuXHhg=
+@size 2950
+share/php-5.4/include/Zend/zend_string.h
+@sha LpIAjSXnLaY9SyiADsJ9Ac7tTuNFhAoHNAk+eQN+SuY=
+@size 2217
+share/php-5.4/include/Zend/zend_strtod.h
+@sha Gp4tWvs0Wg7JmKBNfcGntFG458JxyephVeBBCZLrYq8=
+@size 1867
+share/php-5.4/include/Zend/zend_ts_hash.h
+@sha gOSQQQxeatOSo8QWhIdQ1q5o/Dx3oF43qo4jZ4gOy8I=
+@size 7025
+share/php-5.4/include/Zend/zend_types.h
+@sha IO94z6u3bUcy9nfVAKc7moMB4ciFCbtPNYrNruf1hwI=
+@size 2324
+share/php-5.4/include/Zend/zend_variables.h
+@sha d/3UNnsUIgYK+kJxj1RXRpchTP/AxDFggIs0ECud7FU=
+@size 3850
+share/php-5.4/include/Zend/zend_vm.h
+@sha cGtcg2NZtAUFZI8EwkM4/9xNCytcTDgH1m/hBuwTRpk=
+@size 1388
+share/php-5.4/include/Zend/zend_vm_def.h
+@sha F8GYQrSgeqeCPTeTkhNRYRb+vjemQwwTHEb2dJ/vgo0=
+@size 151990
+share/php-5.4/include/Zend/zend_vm_execute.h
+@sha AKtTTNU0UOnUuoOsc9RdYPeb1lYlmq0CrqVZYPm6F6Y=
+@size 1238674
+share/php-5.4/include/Zend/zend_vm_opcodes.h
+@sha rKErAZXTmL/u7CvfvYHnS5pm+Qbw3SlD53BN+yPN9H4=
+@size 8331
+share/php-5.4/include/ext/
+share/php-5.4/include/ext/date/
+share/php-5.4/include/ext/date/lib/
+share/php-5.4/include/ext/date/lib/timelib.h
+@sha VaT6MxzlI3Evhq7WYlkkJJL23bNRLv1BDFzCUEkpXio=
+@size 6254
+share/php-5.4/include/ext/date/lib/timelib_config.h
+@sha 9fzWYDtJcWx6Tjh/0z6Y02gZLUT5uvY3+eOJK3yfYjo=
+@size 80
+share/php-5.4/include/ext/date/lib/timelib_structs.h
+@sha so6zspEGnAg7qk3Wif0CTy/ycfjggihqT9Z8bKqGhkw=
+@size 6284
+share/php-5.4/include/ext/date/php_date.h
+@sha gbAQpUqEUotxUUf2sezJCtREWXNHFtL8EYQxYOiDx64=
+@size 5941
+share/php-5.4/include/ext/dom/
+share/php-5.4/include/ext/dom/xml_common.h
+@sha PdV9SL2xpNX9Kz/ANkB+r/ZwDkAm/YdzVKU6YaAdLwc=
+@size 3677
+share/php-5.4/include/ext/ereg/
+share/php-5.4/include/ext/ereg/php_ereg.h
+@sha WwbEGbWSQQudS6fPfb9xkVXTwE+NdErm/0wIbXNmSrs=
+@size 2153
+share/php-5.4/include/ext/ereg/php_regex.h
+@sha to55HpXXcap/61wlW+vrn3mgu8xGpHhzHAvu/SzGEwU=
+@size 2029
+share/php-5.4/include/ext/ereg/regex/
+share/php-5.4/include/ext/ereg/regex/cclass.h
+@sha O03wLC7Trwpj+u02iCcSWNbXrdWyAVZeawHrsI+AQKM=
+@size 992
+share/php-5.4/include/ext/ereg/regex/cname.h
+@sha EpPDSPJIu+EK/KxOyU6laZSrTSHqiRTZKo1RSPc6TeE=
+@size 2070
+share/php-5.4/include/ext/ereg/regex/regex.h
+@sha jjFbhH1Xo/htKA6SZS3yJCcj5tHinyNweaJMRNxh/Xk=
+@size 2165
+share/php-5.4/include/ext/ereg/regex/regex2.h
+@sha XwhWQXMP2YLXnnSLam4QxbYaxpLPyIOLOvbji+xNa64=
+@size 5536
+share/php-5.4/include/ext/ereg/regex/utils.h
+@sha ww/2YBfpiun2PZ2mCZEu5Yj/8EJJST/r1Aod4reOWEE=
+@size 501
+share/php-5.4/include/ext/filter/
+share/php-5.4/include/ext/filter/php_filter.h
+@sha 0Dv4bkjBCDfHMsePYkGscFtMu/mf/2h9InWdqR5svxg=
+@size 3559
+share/php-5.4/include/ext/gd/
+share/php-5.4/include/ext/gd/gdcache.h
+@sha hXUfF1twQoexytMg6LDG8WibxYUaghmPAQ77hYy2wOA=
+@size 2846
+share/php-5.4/include/ext/gd/libgd/
+share/php-5.4/include/ext/gd/libgd/gd.h
+@sha e83reW+4naPJLISzhHc0G6v0fh2I2tWjBARTdY8g1Jg=
+@size 26439
+share/php-5.4/include/ext/gd/libgd/gd_compat.h
+@sha S2EcYLLy7k3125WQvYFmVG2Hs7tyCdW06FFqFFzvHmA=
+@size 1932
+share/php-5.4/include/ext/gd/libgd/gd_intern.h
+@sha pX8qdJCwQogNq8rU9W6MWCEKxwzpuLFTMPi59v7oims=
+@size 261
+share/php-5.4/include/ext/gd/libgd/gd_io.h
+@sha +CGuWmUvCPDES9avlNwba+txJdFqgzaR7CytKKmJmeY=
+@size 963
+share/php-5.4/include/ext/gd/libgd/gdcache.h
+@sha NsTIf3gDMy7natyQ1jIJDd25F75oO631dTpHcd0v1sQ=
+@size 2740
+share/php-5.4/include/ext/gd/libgd/gdfontg.h
+@sha vAsebykM+VcTQRr4a9JgH/JxMIaF+ggpAUKwwTob8WQ=
+@size 529
+share/php-5.4/include/ext/gd/libgd/gdfontl.h
+@sha lce1qRa6bMU6un2e6LRDniHdsEQUsI0+Ftozb9n7eGI=
+@size 527
+share/php-5.4/include/ext/gd/libgd/gdfontmb.h
+@sha UvEAkapDI+6M6U4St5fod/hOCIxX2wcebBtL8Q04Jqs=
+@size 495
+share/php-5.4/include/ext/gd/libgd/gdfonts.h
+@sha 8YT+thVB16dXofcL944V5k+ETOCRMGLhwy4RCNJYzXE=
+@size 491
+share/php-5.4/include/ext/gd/libgd/gdfontt.h
+@sha 1ltabJbBD/hp6qove0MMXY7dR6kAURqPPksoyOPhGx0=
+@size 522
+share/php-5.4/include/ext/gd/libgd/gdhelpers.h
+@sha RKec+dpzHutxeL47mrET2D8s/YdBRcOHEkYSZr81WFg=
+@size 1351
+share/php-5.4/include/ext/gd/libgd/jisx0208.h
+@sha m6bny/Vde6Y81+6HiuSe0DTu0ZUltJXtd7mNiCQLeAk=
+@size 71350
+share/php-5.4/include/ext/gd/libgd/wbmp.h
+@sha RAsiIrjPwABk3KfN7wYusnPSRKy6/3Lcew4ispJd2iI=
+@size 1283
+share/php-5.4/include/ext/gd/libgd/webpimg.h
+@sha rJI0aLU3hFhLV3wrwTGTkOoLEIPzyi+0oG6bEu2CcDc=
+@size 7207
+share/php-5.4/include/ext/gd/php_gd.h
+@sha 0/Zwa0K0QnD2TAJSDz8Afr99RT9BVVbWTn2QVIxwwDg=
+@size 6039
+share/php-5.4/include/ext/hash/
+share/php-5.4/include/ext/hash/php_hash.h
+@sha 7O9RxihB1LQ9TZpnLpQf26h9LaG2oZDBeITkrJHUpEo=
+@size 5119
+share/php-5.4/include/ext/hash/php_hash_adler32.h
+@sha xsvaywbbFqK7JdKGSnaD0hcOi2rFQemwRYWS/Cni32Y=
+@size 1825
+share/php-5.4/include/ext/hash/php_hash_crc32.h
+@sha NoKWE+GXyMhhnxNhDSvS2zn62LXS69tCX6Y7iHiPjcI=
+@size 1901
+share/php-5.4/include/ext/hash/php_hash_fnv.h
+@sha yMKtZuA7IoPFNnIxEnaCeSXLKwMb9iQBKncChn7eWhQ=
+@size 3074
+share/php-5.4/include/ext/hash/php_hash_gost.h
+@sha ABJAXkajfBW9s+2IIq98e0i1HgHPjmjD5RoGJdKgDlc=
+@size 1741
+share/php-5.4/include/ext/hash/php_hash_haval.h
+@sha yVB4zCtXqnrgOn5w4To2GEESM4wlFoJGuox1z5kJYyM=
+@size 2261
+share/php-5.4/include/ext/hash/php_hash_joaat.h
+@sha XGJYVySFnKAItBOuBsWOLMkCHbC9wPRYeKuRgKqy10E=
+@size 1730
+share/php-5.4/include/ext/hash/php_hash_md.h
+@sha c18bqovWINcZ5O0KRpNLj9Uirg8qRoLjiz7NKPeRlaM=
+@size 3894
+share/php-5.4/include/ext/hash/php_hash_ripemd.h
+@sha RaQ7kOYDSXHmFx+7kVbkSE/As74m7JuK6gXdR7xopUw=
+@size 3068
+share/php-5.4/include/ext/hash/php_hash_sha.h
+@sha 398FQ+7Eec1OPzOM+EiwXzKbggt/ltMEOPtFLKB5b6I=
+@size 3882
+share/php-5.4/include/ext/hash/php_hash_snefru.h
+@sha 44KQW0V5DeGP8ReQSkY65Wd/Rs9IGAUBpv6ANkfv4ec=
+@size 1856
+share/php-5.4/include/ext/hash/php_hash_tiger.h
+@sha X2UsHof+qFTMcuY5aj3uxN0znnn8zcKesBv+IXKZH3s=
+@size 2003
+share/php-5.4/include/ext/hash/php_hash_types.h
+@sha YskEom9ITxz4CpIXBdm6Z5dY9CaWn4ETPDjHZkXw90s=
+@size 2142
+share/php-5.4/include/ext/hash/php_hash_whirlpool.h
+@sha pQDd40v/Zc3DRfxh214C0vAAzX66cIQXI9+XZtYr7Ss=
+@size 1770
+share/php-5.4/include/ext/iconv/
+share/php-5.4/include/ext/iconv/php_have_bsd_iconv.h
+@sha AbpHGcgLb+kRsJGnwFEktk7uzpZOCcBY74+YBdrKVGs=
+@size 1
+share/php-5.4/include/ext/iconv/php_have_glibc_iconv.h
+@sha AbpHGcgLb+kRsJGnwFEktk7uzpZOCcBY74+YBdrKVGs=
+@size 1
+share/php-5.4/include/ext/iconv/php_have_ibm_iconv.h
+@sha AbpHGcgLb+kRsJGnwFEktk7uzpZOCcBY74+YBdrKVGs=
+@size 1
+share/php-5.4/include/ext/iconv/php_have_iconv.h
+@sha Nc7MLL84bIdDd9R9NFqqfIunHljtHU4KzA3j6SjTfuw=
+@size 21
+share/php-5.4/include/ext/iconv/php_have_libiconv.h
+@sha Aj0HIaNAEGKrXu2gF5FmCM7YR/sSHi6JaHbjFa68th8=
+@size 24
+share/php-5.4/include/ext/iconv/php_iconv.h
+@sha +gR5cOba2FgjWphy9a3OzYOltcJmlvyMncLSoKAKs10=
+@size 4177
+share/php-5.4/include/ext/iconv/php_iconv_aliased_libiconv.h
+@sha Ci91Jvr8tg0RkrZlzGzOrhYw6rwapnRjckJPJB8NCu4=
+@size 33
+share/php-5.4/include/ext/iconv/php_iconv_supports_errno.h
+@sha WS9BYfwHaB2o5nmjWN0lf4wQXZRkajfaCtA5GBnxQfk=
+@size 31
+share/php-5.4/include/ext/iconv/php_php_iconv_h_path.h
+@sha Q9rt3jZqc/QhHsmBG0w8ocpN+9K/uWF4PsPmzFYpW5Y=
+@size 54
+share/php-5.4/include/ext/iconv/php_php_iconv_impl.h
+@sha 341gxCk0YM3kSD9PcaZj9W6UzZTfhS21gsiaUG8sMUI=
+@size 34
+share/php-5.4/include/ext/json/
+share/php-5.4/include/ext/json/php_json.h
+@sha egtTqt+RDvbIJtQip8cS9RSHdyOrDi9Q4KIvbhf+ZpQ=
+@size 2939
+share/php-5.4/include/ext/libxml/
+share/php-5.4/include/ext/libxml/php_libxml.h
+@sha we2WMiY932lwriu/b6396bqHbS5wPmPDpZTwHPMHgSA=
+@size 4589
+share/php-5.4/include/ext/mbstring/
+share/php-5.4/include/ext/mbstring/libmbfl/
+share/php-5.4/include/ext/mbstring/libmbfl/config.h
+@sha M60CoAL8hKswPvJEF/MumoyyWs3SwQm3BVYV7oDfB3Q=
+@size 24
+share/php-5.4/include/ext/mbstring/libmbfl/mbfl/
+share/php-5.4/include/ext/mbstring/libmbfl/mbfl/eaw_table.h
+@sha CAiJE6tepLM8qcj2d7my5ZR3EiNWfiT+t4uFtDvUVf8=
+@size 903
+share/php-5.4/include/ext/mbstring/libmbfl/mbfl/mbfilter.h
+@sha iBUbc/vraHVDPU0SLQvB0egHAccan34zpxbl1E+y9Tw=
+@size 10271
+share/php-5.4/include/ext/mbstring/libmbfl/mbfl/mbfilter_8bit.h
+@sha UFrbdjG22eE59BlDOBl9ZpMYQhavBVUojX7eHnmta98=
+@size 1289
+share/php-5.4/include/ext/mbstring/libmbfl/mbfl/mbfilter_pass.h
+@sha FDIvgguyOK2roBRyDutUjpPG5sDwWJg9yf1iugqnm8A=
+@size 1371
+share/php-5.4/include/ext/mbstring/libmbfl/mbfl/mbfilter_wchar.h
+@sha Pt9LqFb7kSQE+AMBErinzpXI9J2Vmel/p2t+tZBs5OA=
+@size 1293
+share/php-5.4/include/ext/mbstring/libmbfl/mbfl/mbfl_allocators.h
+@sha f6ljNWjxcVSJ0ZzAeveTowW53wzDRoOCmQ8SiYBxsWw=
+@size 1891
+share/php-5.4/include/ext/mbstring/libmbfl/mbfl/mbfl_consts.h
+@sha 2wNyheEKDYtwE5f2jW+B7JQGpGwXQ+idEe2s5jEIO3g=
+@size 4158
+share/php-5.4/include/ext/mbstring/libmbfl/mbfl/mbfl_convert.h
+@sha jHAD8bXePlHn9XmrD91Qiwe3ZiW+Y82QR2tegDR4k8I=
+@size 3864
+share/php-5.4/include/ext/mbstring/libmbfl/mbfl/mbfl_defs.h
+@sha /gmjk4/73KOmhXjIA4lNDmMRyKhN7oRWFPit55ICoOU=
+@size 1595
+share/php-5.4/include/ext/mbstring/libmbfl/mbfl/mbfl_encoding.h
+@sha 1rT1hRVrJD+Bqk7a8POL/3DAN7iwoTskJoqEtFuHrPI=
+@size 4457
+share/php-5.4/include/ext/mbstring/libmbfl/mbfl/mbfl_filter_output.h
+@sha cfoC3P8F9V7n8uU4iac4Rn6GWTXT64+keQXWb7SmkiM=
+@size 1376
+share/php-5.4/include/ext/mbstring/libmbfl/mbfl/mbfl_ident.h
+@sha TD+9fWfK7XB/NPdWk2nX01aj2E733GuOHB7HSgMLnTw=
+@size 2868
+share/php-5.4/include/ext/mbstring/libmbfl/mbfl/mbfl_language.h
+@sha lpIKtZxO7GBNI6KqOxM2RhBVem4tMjQBYwnHCoW8ek0=
+@size 2873
+share/php-5.4/include/ext/mbstring/libmbfl/mbfl/mbfl_memory_device.h
+@sha p1yjaPOaXOrCSiJJIuDJUq2ZiyV8sVFZt42UPkmgX90=
+@size 2743
+share/php-5.4/include/ext/mbstring/libmbfl/mbfl/mbfl_string.h
+@sha qJGTHA/pDonmz/+NbcJ3fzHycqfbaapFkZUElVnTD9U=
+@size 1705
+share/php-5.4/include/ext/mbstring/mbstring.h
+@sha 29/EluGzuAfWXbrqqmOVtjWSQ0V4Cnbody+/yA8DsiE=
+@size 7247
+share/php-5.4/include/ext/mbstring/oniguruma/
+share/php-5.4/include/ext/mbstring/oniguruma/oniguruma.h
+@sha u5XKDowj0H6RhRXTcv8Cbq5NtBERqw40taEMB0KF5dQ=
+@size 39354
+share/php-5.4/include/ext/mbstring/php_mbregex.h
+@sha W+LrmZsuEKbPRsTZ7oG4OLL37ys9T1y3CxI6K7LN4K4=
+@size 4612
+share/php-5.4/include/ext/mbstring/php_onig_compat.h
+@sha 8Z8sW5j3gpV3Wup+odX9cgqWErAVMi5ptd+TuTtMPM0=
+@size 256
+share/php-5.4/include/ext/mysqli/
+share/php-5.4/include/ext/mysqli/mysqli_libmysql.h
+@sha NY6o9vIgSmJ5iwrzunly9ZikbKfUEGdRURlfQmCjJNU=
+@size 6262
+share/php-5.4/include/ext/mysqli/php_mysqli_structs.h
+@sha UrAMioLBJHo+xydYui6m14qcC0ZjeRHKKjF6LmkHPFM=
+@size 10269
+share/php-5.4/include/ext/mysqlnd/
+share/php-5.4/include/ext/mysqlnd/config-win.h
+@sha GMlynZ5FRlOsf/wdCGMRAF2talb9Nztr4lAMAmHC2kk=
+@size 3312
+share/php-5.4/include/ext/mysqlnd/mysqlnd.h
+@sha agtVE2GfU7lGrLWla2J7J07u2HL45mm7oZkyJl2ScPA=
+@size 17044
+share/php-5.4/include/ext/mysqlnd/mysqlnd_alloc.h
+@sha q8yAHuMgQflFIeIKF9bCUzAQbUZtcbDPN30NkTE7vg8=
+@size 5941
+share/php-5.4/include/ext/mysqlnd/mysqlnd_block_alloc.h
+@sha vCZg9p0QYMhp9emb4llfRrj0o5BTP5q55TdyXXaGbx8=
+@size 1691
+share/php-5.4/include/ext/mysqlnd/mysqlnd_charset.h
+@sha C9MzHTD5Kc9QqSmLCCkegjFlqCNIiPM/HEL+wts+u4Y=
+@size 2450
+share/php-5.4/include/ext/mysqlnd/mysqlnd_debug.h
+@sha JgaeNiTaJavjYDj/YXFUfyTJGr2s8DBJKTFmjqHSLkI=
+@size 7499
+share/php-5.4/include/ext/mysqlnd/mysqlnd_enum_n_def.h
+@sha 9RV+UMDAY42ko5B6OM3WQjjcx/SyA6oUho5Ca8PobQg=
+@size 17975
+share/php-5.4/include/ext/mysqlnd/mysqlnd_ext_plugin.h
+@sha 9hEtNewW46JBV5+RdAS4L0AkejZkgaPajE1CmhENDgg=
+@size 3941
+share/php-5.4/include/ext/mysqlnd/mysqlnd_libmysql_compat.h
+@sha AwAQxTeq8mQgdmHEh5nH3d3bZ4Ra0fBWm8oZsvM/mmo=
+@size 7534
+share/php-5.4/include/ext/mysqlnd/mysqlnd_net.h
+@sha k3bu+chLHn7VeGkf4Vog/Bt20b86qCNJe2vligEYnDo=
+@size 1812
+share/php-5.4/include/ext/mysqlnd/mysqlnd_portability.h
+@sha Q6LtC3rZRjPMRqjbDUjeBlWrt652R0GVLa0Nux1X7WU=
+@size 19302
+share/php-5.4/include/ext/mysqlnd/mysqlnd_priv.h
+@sha wH9iZQT2TEn7EjYmwJo//eraalDlWGEW75RvF05G8WQ=
+@size 8897
+share/php-5.4/include/ext/mysqlnd/mysqlnd_result.h
+@sha /GuWJYEDA7jAOBS0HULSjsNzIykqYv/kpL78oFPk4eE=
+@size 1726
+share/php-5.4/include/ext/mysqlnd/mysqlnd_result_meta.h
+@sha 94+0RmP/SQ18l1Eohn8KJbrg58kKKgyauXFwIDx+pAo=
+@size 1858
+share/php-5.4/include/ext/mysqlnd/mysqlnd_reverse_api.h
+@sha UfeC5XZqLkKVzAevRxYX8Zu7cIojdUMGdlTWmb6yTFQ=
+@size 2019
+share/php-5.4/include/ext/mysqlnd/mysqlnd_statistics.h
+@sha B+SKW+ujEPmEGTe8GTQbNW9IOt7twk34BxADNWKLl3U=
+@size 7887
+share/php-5.4/include/ext/mysqlnd/mysqlnd_structs.h
+@sha mXu1NxzRJYqHIeq/9OH5oYUenMOAm3fv+eARzbLB7tk=
+@size 49345
+share/php-5.4/include/ext/mysqlnd/mysqlnd_wireprotocol.h
+@sha GpNaH6P4arx2RC2uoe+Sr89n88opYNaR6Q57w5xP50U=
+@size 9824
+share/php-5.4/include/ext/mysqlnd/php_mysqlnd.h
+@sha h4jkZCTeIOMnYA+EmII+OT6f/zltnLBlXcDXgEKnX3M=
+@size 1597
+share/php-5.4/include/ext/mysqlnd/php_mysqlnd_config.h
+@sha FJpS5zSKW1/f06ajflanPzXYv3NBav4rteE6vFFvUyY=
+@size 207
+share/php-5.4/include/ext/pcre/
+share/php-5.4/include/ext/pcre/pcrelib/
+share/php-5.4/include/ext/pcre/pcrelib/config.h
+@sha dnReXP8RGbKfuH5G5PzqMspDfOAwzyFD9y+pTvPNaZ8=
+@size 15317
+share/php-5.4/include/ext/pcre/pcrelib/pcre.h
+@sha CBiIGgOP7Jv9d9mxPmkxbYfG3h2GlfT3kBSvQDVP4CE=
+@size 30447
+share/php-5.4/include/ext/pcre/pcrelib/pcre_internal.h
+@sha zdfojfc2Y4DIEni04v9Ugq3kQTEmoDEAeo07HjyKDmM=
+@size 109300
+share/php-5.4/include/ext/pcre/pcrelib/pcreposix.h
+@sha F3DyswwK8vJFQ0KBc89uZHnpIQRe/b0An9B4F7hOBK0=
+@size 5452
+share/php-5.4/include/ext/pcre/pcrelib/ucp.h
+@sha bC5TToS1NO6wl78oTImjNfH4ZEoyd/c6984TkQjkrvQ=
+@size 4669
+share/php-5.4/include/ext/pcre/php_pcre.h
+@sha NgOOC58hFsMGHsTm0nP2BAWcCfBFHf5MUAMV+eKocYI=
+@size 3232
+share/php-5.4/include/ext/pdo/
+share/php-5.4/include/ext/pdo/php_pdo.h
+@sha 5VBRu2HFaPstgNDeErjOcNqjcKmRnzVnEfLQVW4DMAM=
+@size 3091
+share/php-5.4/include/ext/pdo/php_pdo_driver.h
+@sha M/4HhY8Uj5jgP/A16EYcD/Srja+18bEROIEzRfpX0/o=
+@size 24028
+share/php-5.4/include/ext/session/
+share/php-5.4/include/ext/session/mod_files.h
+@sha /GQ5Foo64CRK6OePuNR6pZPH9J2v5GjAglNIaokJQQA=
+@size 1294
+share/php-5.4/include/ext/session/mod_user.h
+@sha RdEI9XjIA6cvvfidRlsfjyvkAQkQ4M1ZRILkIkYED/0=
+@size 1288
+share/php-5.4/include/ext/session/php_session.h
+@sha ZuHmQeushdNcGyTvR6ybOFcrNdBiOdXw/hAZvozS5Sc=
+@size 9643
+share/php-5.4/include/ext/sockets/
+share/php-5.4/include/ext/sockets/php_sockets.h
+@sha 9p+XSaU32aEg5VACFoRvjnTCVuQEDsveWJqv8DlM7Lk=
+@size 2490
+share/php-5.4/include/ext/spl/
+share/php-5.4/include/ext/spl/php_spl.h
+@sha N4/Hnhf0c16Y22joeEnXbYepeOKk+Aofcx2+bd9pdN4=
+@size 2861
+share/php-5.4/include/ext/spl/spl_array.h
+@sha 18SG7T03FakeLHmLHCENbip3dIXWf0yBux5cwuWtjAY=
+@size 1776
+share/php-5.4/include/ext/spl/spl_directory.h
+@sha AUseUrelF5+EwLutvxpJrSnMRiZ9aGzC7s57moj99JI=
+@size 5955
+share/php-5.4/include/ext/spl/spl_dllist.h
+@sha QOTSOv4NQBUdZLelvhWD0CiktiTvBDmIh4pWU+cRjNY=
+@size 1578
+share/php-5.4/include/ext/spl/spl_engine.h
+@sha YDRSH3zybwD3B/ox1y4uxhv+yPid7aN+oEW7cg2sK24=
+@size 2367
+share/php-5.4/include/ext/spl/spl_exceptions.h
+@sha 0U6NUsjtmddsAEsxEOGeFAS2f3D+le5/+wDM8rITzLU=
+@size 2212
+share/php-5.4/include/ext/spl/spl_fixedarray.h
+@sha y4pIx5UtYPWOoh2pHL0CtIwmavrGH/WLslKzX1MxgWU=
+@size 1529
+share/php-5.4/include/ext/spl/spl_functions.h
+@sha IeOJOrqqgVwF75HQtFb+4D+8OxlfL23jCutw6Ek+v4Y=
+@size 4590
+share/php-5.4/include/ext/spl/spl_heap.h
+@sha nQBixYFE5vwaQaD7Wba+8yy4XJskzpqvyXu6ItsJ62s=
+@size 1620
+share/php-5.4/include/ext/spl/spl_iterators.h
+@sha WP9OwYtbIR3sbp2n2823bkAkIwV77RPT8xVaPwRlUCw=
+@size 5871
+share/php-5.4/include/ext/spl/spl_observer.h
+@sha 9H4oXYKrYR4JtqF9dUjm2naX8ItsnBxrwpDN1KBZybQ=
+@size 1645
+share/php-5.4/include/ext/sqlite3/
+share/php-5.4/include/ext/sqlite3/libsqlite/
+share/php-5.4/include/ext/sqlite3/libsqlite/sqlite3.h
+@sha sZpnlTKZuEvFBVe8oYNKeWyIcikA6d9bv4XBsEZB12A=
+@size 320830
+share/php-5.4/include/ext/standard/
+share/php-5.4/include/ext/standard/base64.h
+@sha 5Rdz/NTO76ln6mcTG3lE+Yb73jqzbrqn4tONML4CXyE=
+@size 1612
+share/php-5.4/include/ext/standard/basic_functions.h
+@sha R4ZqFpJWeih6v/3nn1WpgwP3pOy5yC1/OrKwJsHKmMA=
+@size 7497
+share/php-5.4/include/ext/standard/crc32.h
+@sha Y96XHq7P5SpQl2OBCFBUqmX1hpznBpFzKON8gL+scBY=
+@size 4895
+share/php-5.4/include/ext/standard/credits.h
+@sha l80I2KJhszLooLGLPSGNo3b7RZTFtaueiZM31cktjH8=
+@size 1737
+share/php-5.4/include/ext/standard/credits_ext.h
+@sha h8h8thWJssAk+O9zTRRPT4zE1ZOH0TF1Xz3X0n/79FE=
+@size 5586
+share/php-5.4/include/ext/standard/credits_sapi.h
+@sha ThvfAbrS1gLwLetGMiLhTDk8PHegiAkk4fHHO3Hg2Ls=
+@size 1606
+share/php-5.4/include/ext/standard/crypt_blowfish.h
+@sha Pxc4MqH3uwwbXXzJb484FVdZctepYz7u6VUl2jotCdw=
+@size 1080
+share/php-5.4/include/ext/standard/crypt_freesec.h
+@sha nsZJ92ZHsDSqhj7zSGpZBFTXUC0exsKH/zjL1Vz9aUw=
+@size 949
+share/php-5.4/include/ext/standard/css.h
+@sha IYKicpG7/lcigSliIIfo/iCrFxoa0gomswiq4r0sMkw=
+@size 1239
+share/php-5.4/include/ext/standard/cyr_convert.h
+@sha 5uWf5ks/bgJVOLqmYEVhf7mOYLI9Sc4oTr7gIkQdRxE=
+@size 1269
+share/php-5.4/include/ext/standard/datetime.h
+@sha 87LcYDpe9iAz2/RsdScwoH/YTJcDh8h2UUXyqahG3iM=
+@size 1398
+share/php-5.4/include/ext/standard/dl.h
+@sha kb0Tcj9kmq+v5UUb9B4CrZ4m0PsNejjkaG/qTC4wP4o=
+@size 1610
+share/php-5.4/include/ext/standard/exec.h
+@sha 6eGFI7LE6hl86u2FjhqVhk89xbXxuYpWEpTlVfRRLqw=
+@size 1704
+share/php-5.4/include/ext/standard/file.h
+@sha 1AnY81IqYTlmuDmwIQIIft0MKg4+Z4YJPBPsnC91jtY=
+@size 4670
+share/php-5.4/include/ext/standard/flock_compat.h
+@sha JFEZnPNMoKSFwfbr1XrGZtwWH/kvS158iNFyD4zy8xY=
+@size 2120
+share/php-5.4/include/ext/standard/fsock.h
+@sha 3MNgggj/ENxjsJCL0J+CnZx9zWlTy2gZJbgANWKShnE=
+@size 1610
+share/php-5.4/include/ext/standard/head.h
+@sha jAa137LNc1CNBKi+Lkl2Vu2OjfhFHSF9zw4oGWiLov0=
+@size 1663
+share/php-5.4/include/ext/standard/html.h
+@sha eormiHxAjxMJMZs0lDSzEE+MZV0W6cYbhwQLh9tzn0o=
+@size 2773
+share/php-5.4/include/ext/standard/html_tables.h
+@sha 4OkYtXB3ErtURJ9gXKTvoYh7YQeq622sxFanEqtqsXM=
+@size 482886
+share/php-5.4/include/ext/standard/info.h
+@sha cossJ7ywgmyBLCZ2EWZ5N1KNSoMeTmgQXCpCAIbevME=
+@size 3709
+share/php-5.4/include/ext/standard/md5.h
+@sha yoWh9o/REGERo+FJNJ97eIyDbLcIe/G/xQcY3IfvamU=
+@size 2169
+share/php-5.4/include/ext/standard/microtime.h
+@sha TrtYD/sZuwB7H6hDDlO3+DhxCTPF0z2r31vlrWq6VbQ=
+@size 1365
+share/php-5.4/include/ext/standard/pack.h
+@sha fA9dtvAZkfSt34TFMjImaf3yIDIv5gx5qnqndtWtIGQ=
+@size 1279
+share/php-5.4/include/ext/standard/pageinfo.h
+@sha VrhGq9rUZbeD6/L7bgV4ePyyJ/O3ielkHF9qb0w0Zes=
+@size 1473
+share/php-5.4/include/ext/standard/php_array.h
+@sha CIX6soVFmDxVJYvBPO3Ug9BXsrcg7KcKdmMDa4Gzaf0=
+@size 4457
+share/php-5.4/include/ext/standard/php_assert.h
+@sha uWZrYw8xF2m1NrlTm4elt/59tPzrDId9V3SNvNggyE0=
+@size 1429
+share/php-5.4/include/ext/standard/php_browscap.h
+@sha oThqY7jv/rMrbOBKVLZtU1r/cjdUH22/DB2Eov7FrlA=
+@size 1328
+share/php-5.4/include/ext/standard/php_crypt.h
+@sha /CCVY+yzfc3UBUGS0rWh2d0Vvraf/xmpfOD5eMdUgYQ=
+@size 1561
+share/php-5.4/include/ext/standard/php_crypt_r.h
+@sha IWB01Shb78N+2qB5mn516YPKYLescG2y9lMWOcu4jY8=
+@size 2052
+share/php-5.4/include/ext/standard/php_dir.h
+@sha E+/IknEMV6FHwET4y/vM5L4s/i+TOgtZBAjy5SvCt6s=
+@size 1714
+share/php-5.4/include/ext/standard/php_dns.h
+@sha S6M0xOatqgl83UWNuRPlRgWeslR98W0doDUu96U8lQc=
+@size 2885
+share/php-5.4/include/ext/standard/php_ext_syslog.h
+@sha D2aIaEwRSU9Lc8CJcmj8nccINB4+0rzh1OSNoKBVpYk=
+@size 1510
+share/php-5.4/include/ext/standard/php_filestat.h
+@sha XEcdDtN6GmKIMmycUppST8HMC7Jadj0cx4wXY+w+TKE=
+@size 3358
+share/php-5.4/include/ext/standard/php_fopen_wrappers.h
+@sha wn0pdYF9bek0VWDDAao9SkZiQZwrTpoS25B30PF1HQ0=
+@size 1942
+share/php-5.4/include/ext/standard/php_ftok.h
+@sha MDkremf+IeduTU4cTYVUr7c8mVZYfmteq/KGqhEsDko=
+@size 1264
+share/php-5.4/include/ext/standard/php_http.h
+@sha 8z6XdTwhCVQf3qFst+hC713sc6El8R3h7QW3yNWtDv8=
+@size 1806
+share/php-5.4/include/ext/standard/php_image.h
+@sha 4P7izmjhPoa/CwbI9yS9c0pMjeUFfNNeq6IKC+qf3kg=
+@size 2424
+share/php-5.4/include/ext/standard/php_incomplete_class.h
+@sha k8LJ47tdtTIi+xV/XOQqSAkqykBt8z3m78tg2YAYYTw=
+@size 2526
+share/php-5.4/include/ext/standard/php_iptc.h
+@sha NgdPqVvL/f6BrvZzAhkoJSPo4kbk3tDTXgMPZ+ziN3A=
+@size 1274
+share/php-5.4/include/ext/standard/php_lcg.h
+@sha dENvyfzGnFqFFaUfvU7CO0qA9mm5l6wjvCNNkHczrA4=
+@size 1536
+share/php-5.4/include/ext/standard/php_link.h
+@sha zsBsLz5/EyE0AFIw9oVDWQD6loHsFoiRJeTdlx7T0kQ=
+@size 1371
+share/php-5.4/include/ext/standard/php_mail.h
+@sha iPN0KbA/BzGqQYtPL4GGmOSV+nPeGXfSW+rX1h9X9ls=
+@size 1407
+share/php-5.4/include/ext/standard/php_math.h
+@sha AmEJM8523rD5ZNH1Cu1Ar6U5Py0RY0oZ8oMnRMDEzO0=
+@size 4724
+share/php-5.4/include/ext/standard/php_metaphone.h
+@sha AIii7bBMt/CLRNOd1G71CLzVrValD8g7syXOqZu9ACs=
+@size 1243
+share/php-5.4/include/ext/standard/php_rand.h
+@sha HDXJ4Ej/pmVtMGPp5bdhtp6AWgPKCoZZL9Pg5PULQ5k=
+@size 2603
+share/php-5.4/include/ext/standard/php_smart_str.h
+@sha iSqX1KfqwaT+h+eXASwDsYgYMvUNp3voU214vzCmshk=
+@size 6531
+share/php-5.4/include/ext/standard/php_smart_str_public.h
+@sha fphx366qZJG5hFHGIZmwkfCS79pcXu8nZNo5blS+dlU=
+@size 1319
+share/php-5.4/include/ext/standard/php_standard.h
+@sha J4a+XE/gPOskNLInBo6066DX8GUI58TtcJmlxRr6D3s=
+@size 2241
+share/php-5.4/include/ext/standard/php_string.h
+@sha K40+EsLV+U3VMmyLHTFWjBWeU6VXUg86uyxUY6JxaV0=
+@size 6376
+share/php-5.4/include/ext/standard/php_type.h
+@sha Lgl79xYZuZpjXVnOvldZA/4GstLl9bn77JYMm+RFjEc=
+@size 1592
+share/php-5.4/include/ext/standard/php_uuencode.h
+@sha +ELJxFw27/GvYxXgfQYtid/gHQtpeQNZ+QoxDcvf6Nk=
+@size 1497
+share/php-5.4/include/ext/standard/php_var.h
+@sha vHslYKetc1ja8pTly3C9Qa/CqqUgR2SF8DwwQ+k1cqQ=
+@size 7501
+share/php-5.4/include/ext/standard/php_versioning.h
+@sha exy8jzWx7DDmKiPzxXwFR0kssUpGermJ17UD4gJoWD8=
+@size 1406
+share/php-5.4/include/ext/standard/proc_open.h
+@sha PgiFr2v8d9SbdLUTjnq/wj7FYqzJ6CW+fvXlu/lbFrs=
+@size 1851
+share/php-5.4/include/ext/standard/quot_print.h
+@sha f5V/nEVaWl0kxH/9Nljr6PRRW82kAHaHI6Lu97bza1o=
+@size 1542
+share/php-5.4/include/ext/standard/scanf.h
+@sha YXVbr/Ww9ypVHitEMLpKF5m+IVyuPQWF0PV8Lal8SF4=
+@size 2324
+share/php-5.4/include/ext/standard/sha1.h
+@sha PGzABJYeDNYr46uhB7og+g3XnfL+GMDdtK09cIO65Tc=
+@size 1751
+share/php-5.4/include/ext/standard/streamsfuncs.h
+@sha T19kNVjZgZQR9ONxfYgHOkPoLT7pGYIicK1+69et3p4=
+@size 2849
+share/php-5.4/include/ext/standard/uniqid.h
+@sha /46570FqzjFs613uA6kFTzdHtabIVoScDlXDLGE0jCQ=
+@size 1272
+share/php-5.4/include/ext/standard/url.h
+@sha N7mzOHwe/O2ov8vL4z3qqEBkxb4ElReVqKibxV+QODs=
+@size 2332
+share/php-5.4/include/ext/standard/url_scanner_ex.h
+@sha 9ir3Wd1P7z10le/Ura4Bjdn7HFjowueb8BgMkPadsW4=
+@size 2141
+share/php-5.4/include/ext/standard/winver.h
+@sha DN6DF7UygAzvzKbaVPWY1zZnxVlYgX2Eu9oIGSBasYY=
+@size 3484
+share/php-5.4/include/ext/xml/
+share/php-5.4/include/ext/xml/expat_compat.h
+@sha TLeBOaTj4DFP71RS+FV4Orj13XY6p7onAScyiuqMGb8=
+@size 6091
+share/php-5.4/include/ext/xml/php_xml.h
+@sha 4wBEcDQN8hS3jijBMs7gFr6UD4w2OVbrehEIisbsX8k=
+@size 4577
+share/php-5.4/include/include/
+share/php-5.4/include/main/
+share/php-5.4/include/main/SAPI.h
+@sha OT57WNFScaZUMH8AcSyre/7Fz8L5tnmJf08H1Q8R154=
+@size 9921
+share/php-5.4/include/main/build-defs.h
+@sha r4YfDHYmPh6L8bs2OqxbFu5O+vX1xN7xMLAaJ3HvX5k=
+@size 6205
+share/php-5.4/include/main/fopen_wrappers.h
+@sha Y+Zr4Cz/fjFFHAt5n7+Ia2oadIp4YY/ly1cq+n+UlPg=
+@size 2817
+share/php-5.4/include/main/logos.h
+@sha O99LRtJ/Lxq1DszZLT5fOD9997o9hoXOcBnKmpTgmpg=
+@size 55994
+share/php-5.4/include/main/php.h
+@sha Ki56WuZBZ6OIwgXD3aG9MMWoWaHSxD8drVw2rZ62/N0=
+@size 11953
+share/php-5.4/include/main/php_compat.h
+@sha wA7DQVhWhoAxr5rAl72lJM7PKpwOBhIHpFrwp72Q1os=
+@size 18029
+share/php-5.4/include/main/php_config.h
+@sha 9acfUl//1Fyyhwj80wuNFwD8BdJDS/MHyne48ZP8ilc=
+@size 54269
+share/php-5.4/include/main/php_content_types.h
+@sha FHzRpe3vxHnXSVzzx3kkqv8vSUoh+JWpxrPFBq7Qdp4=
+@size 1508
+share/php-5.4/include/main/php_getopt.h
+@sha iN9RY1ZnT/wEGdak8IOTkb7f1bdzqBSCyha73uFdJ6s=
+@size 2071
+share/php-5.4/include/main/php_globals.h
+@sha KQLPcO8spQeDLOwJaelOBiBCIjVxm/2vz68hV+d8WQQ=
+@size 4077
+share/php-5.4/include/main/php_ini.h
+@sha DET4aaVh+Fu+zsnoCfMbk2+mdn8L6sfwLndNOuMS3r8=
+@size 3758
+share/php-5.4/include/main/php_logos.h
+@sha NZ88n6qlQt8jhSok9WTpM/uxPY2rofvzizSWU/nQqOg=
+@size 1538
+share/php-5.4/include/main/php_main.h
+@sha vOfVphljpIePi76PK1X6q6sdjFMAHxk7QFGwRw/xr1c=
+@size 2773
+share/php-5.4/include/main/php_memory_streams.h
+@sha Gm55mMGsBjQ6dqTXAMREMOgfvuxogJ/jEljmTHh0s3Q=
+@size 3329
+share/php-5.4/include/main/php_network.h
+@sha ajK16BAwBcFLemmRjjOFx+8Xu61yrj6/rzHg8oYl3PE=
+@size 9743
+share/php-5.4/include/main/php_open_temporary_file.h
+@sha gW/Yk0+/niGGuF22C6mNr7ZROGn9UdKWDqTrTnr6eUI=
+@size 1743
+share/php-5.4/include/main/php_output.h
+@sha 2re3BN8X/1lAHRg2R0PjFIsYaZMyfCXKqF+2Dl+2VQo=
+@size 10241
+share/php-5.4/include/main/php_reentrancy.h
+@sha wZzzUljrFhBLQeUVx7FSePlqjGm1kY4BZXVOeJyfxoc=
+@size 3691
+share/php-5.4/include/main/php_scandir.h
+@sha BhKXNRkQLxLy07B+6WhZ+ZjpfWqLvOjYrG/IqJAa/jA=
+@size 1931
+share/php-5.4/include/main/php_streams.h
+@sha 3zDI/kbTM6Qeh1YazEmHQyheNTrjHCvff0fedA4oUx8=
+@size 30188
+share/php-5.4/include/main/php_syslog.h
+@sha arDrYHkKfh6Pi7Xxbe0m6HkwxHnlCTMqxaIZnMdl/Z8=
+@size 1574
+share/php-5.4/include/main/php_ticks.h
+@sha smq2bGHe4TpTCeQ2PAuogzOgxUtuvdT3naMKXkIEO3U=
+@size 1561
+share/php-5.4/include/main/php_variables.h
+@sha o9y+kWjquZyqDy5VFRhmqD3LRoP5gj3cW6y6Zp9cqlI=
+@size 2044
+share/php-5.4/include/main/php_version.h
+@sha ISuAO0qVkIOfYwd2B+ybrDU/E9epQpCuVy8XcqX3kXk=
+@size 266
+share/php-5.4/include/main/rfc1867.h
+@sha wgeiuPKK5bKBUx91DC3gLcaJhoB6WJJgQPhVZCC/GiM=
+@size 3437
+share/php-5.4/include/main/snprintf.h
+@sha AyOdl17o1rBvFiS+w0aTJVp8jFi2HdvuvVcyE3S6WJs=
+@size 7022
+share/php-5.4/include/main/spprintf.h
+@sha xEAiqyCoxv+/GcP5pH1FXyRTb0hgWT41OuuDrsp4Cys=
+@size 2070
+share/php-5.4/include/main/streams/
+share/php-5.4/include/main/streams/php_stream_context.h
+@sha Z5VjWCvMcL/2HuzPz8zHbwJHEAqyjXcbsmr29Ot7cGk=
+@size 6353
+share/php-5.4/include/main/streams/php_stream_filter_api.h
+@sha g1wZqhxVpDLxct2eStABNSdOLOKmyY8K2xsXz5/k2PA=
+@size 7212
+share/php-5.4/include/main/streams/php_stream_glob_wrapper.h
+@sha 6XrqyxhWVlbwwuC6Molbibl8mQa9m2p7k26h2+yWuY0=
+@size 2116
+share/php-5.4/include/main/streams/php_stream_mmap.h
+@sha pP5U2OV3t7N1lc577W5eAgd4xJD+Ua6jpIrfnJu2xKY=
+@size 3510
+share/php-5.4/include/main/streams/php_stream_plain_wrapper.h
+@sha Np/w/8+niRJDia+mSArl//4PuehPT8xr2JR6aGQXnVI=
+@size 3781
+share/php-5.4/include/main/streams/php_stream_transport.h
+@sha NjlvFHJp+5RkRpblqUPl9m1cek3wR2kWWWOdSG8oHko=
+@size 6715
+share/php-5.4/include/main/streams/php_stream_userspace.h
+@sha 09ZGs92QPGCKMP/Giq/ctHqdcdV1Q5T68LWfejsiiRM=
+@size 1555
+share/php-5.4/include/main/streams/php_streams_int.h
+@sha J6X98ionugCaEF4ph0kGKSmiR3YXw4yD8prUCMckv1Q=
+@size 3032
+share/php-5.4/include/main/win32_internal_function_disabled.h
+@sha g7HphioGEM/BRVqLncsbxi7k5H1vSr8wybB1hsx0IIw=
+@size 1596
+share/php-5.4/include/main/win95nt.h
+@sha 2FaHg8OhTACgZw3J7Qp3rKpQOLrGANZ7bwpcJi2gvZ8=
+@size 2693
+share/php-5.4/include/sapi/
+share/php-5.4/include/sapi/cli/
+share/php-5.4/include/sapi/cli/cli.h
+@sha XBx/jqgT5UIk/2q5CLqCjbhV3O+aH2PhyWozQi0AtEE=
+@size 1922

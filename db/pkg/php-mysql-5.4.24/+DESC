@@ -1,0 +1,16 @@
+mysql database access extensions for php5
+These functions allow you to access MySQL database servers.
+More information about the mysql extension can be found at
+http://www.php.net/mysql.
+
+If you want to use functionality provided by MySQL 4.1 and
+above, please consider using the mysqli extension.
+
+Information about MySQL can be found at http://www.mysql.com/.
+
+Documentation for MySQL can be found at
+http://www.mysql.com/documentation/.
+
+Maintainer: Robert Nagy <robert@openbsd.org>
+
+WWW: http://www.php.net/

@@ -1,0 +1,151 @@
+@comment $OpenBSD: PLIST,v 1.16 2013/04/20 16:22:55 sthen Exp $
+@comment $OpenBSD: PFRAG.shared,v 1.1 2013/04/20 16:22:55 sthen Exp $
+@name openvpn-2.3.2
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.5/packages/i386/openvpn-2.3.2.tgz
+@signer openbsd-55-pkg
+@digital-signature signify:2014-03-06T00:39:21Z:RWQQC1M9dhm/ts4pbbpg/lIuW8aBHbMVvfFKsfpTnAZvd6zBo4p3Oa1IByxxf7GU8uIhOanS5vz2qYMKgCfEZTMW0m6oImkwRw0=
+@option manual-installation
+@comment pkgpath=net/openvpn cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha Vp1so3/gHry1C2bSEjYu0ko/xnr4WpYt4DegrQj4mUU=
+@size 638
+@depend archivers/lzo2:lzo2-*:lzo2-2.06p0
+@wantlib c.73.1
+@wantlib crypto.23.0
+@wantlib lzo2.0.0
+@wantlib ssl.20.0
+@newgroup _openvpn:577
+@newuser _openvpn:577:_openvpn:daemon:OpenVPN Daemon:/nonexistent:/sbin/nologin
+@cwd /usr/local
+lib/openvpn/plugins/openvpn-plugin-down-root.so
+@sha f/1ltfhIqVRalPXfeW/hkUNw096AE1lZUU8ZUPEk44w=
+@size 12475
+include/openvpn/
+include/openvpn/openvpn-plugin.h
+@sha zxJaZOSAgl06LEkNCji1vJ4p7u23cIXyWVY3aNZRo/g=
+@size 27438
+lib/openvpn/
+lib/openvpn/plugins/
+lib/openvpn/plugins/openvpn-plugin-down-root.a
+@sha gFlWTQRoV/avILwkDJtBIOSALTot2fxOvoUSN6y45/k=
+@size 6948
+lib/openvpn/plugins/openvpn-plugin-down-root.la
+@sha cjFmpwbdHQmui5/6DZ00nNR+NJuhhJnTV83PYOTpoAs=
+@size 825
+@man man/man8/openvpn.8
+@sha CJIHFRzwijZhGVneEUs0HmqybKJzttydrqzYiJCutLA=
+@size 202568
+@bin sbin/openvpn
+@sha yMrxF+vVDI8TTH2aJVEjvbOCDOfLqVK4xfVbMsSIJNU=
+@size 606448
+share/doc/openvpn/
+share/doc/openvpn/README.down-root
+@sha lBrHuCl9ocRtSgVqCtz5IKi4orrTiwvvVIyCx5IZZVw=
+@size 866
+share/doc/openvpn/management-notes.txt
+@sha UcoJzZOk9vD54ZC5R7Tk/MxlrAihDggQGD1ncC3vtjM=
+@size 34049
+share/doc/pkg-readmes/openvpn-2.3.2
+@sha GCatA9mDZQ8rhlLhjGKRhP2J2lwDXDmM0FlOboA5WsU=
+@size 2441
+share/examples/openvpn/
+share/examples/openvpn/sample-config-files/
+share/examples/openvpn/sample-config-files/README
+@sha wBIaOFV4Xri7QSG2mOMPhZc5AjytOlpvIqFPLe+moVU=
+@size 131
+share/examples/openvpn/sample-config-files/client.conf
+@sha dsWexcvgWpIw8TGhFQNYm76/nIyErT4VeAxS2XOc7lo=
+@size 3428
+share/examples/openvpn/sample-config-files/firewall.sh
+@sha 5M82JqBLAk+MjncnYBdeFzq1+HDZH48E5JVO99OmJgY=
+@size 3562
+share/examples/openvpn/sample-config-files/home.up
+@sha FwwJQFLvoSOEG1DNM2+R4T++3yXvI72mtVEoRsTWhPg=
+@size 62
+share/examples/openvpn/sample-config-files/loopback-client
+@sha 4ndV5haDW2o9YL/2xFVNpLxDvh6a7TpwG5eiC7fiWBw=
+@size 639
+share/examples/openvpn/sample-config-files/loopback-server
+@sha Mpwj0r6sv6NYgsVmRvmUNPbXByUS4XfEsOaXSeLRBwg=
+@size 665
+share/examples/openvpn/sample-config-files/office.up
+@sha jb2TzWNvkxUJAjxQ5NUaJ/zTdpJR3MWh4H4MMnm3tC0=
+@size 62
+share/examples/openvpn/sample-config-files/openvpn-shutdown.sh
+@sha JyAVOkdNeLdHXo64E6hwGP3qa53Ca3M68KpYAIJ115I=
+@size 63
+share/examples/openvpn/sample-config-files/openvpn-startup.sh
+@sha UPcHEdBv8A5MdHwAdhhlLgWPJeEaPkJROlJ4zBMGW4Q=
+@size 776
+share/examples/openvpn/sample-config-files/server.conf
+@sha 6Uk3OPGvxt+qap8FhNp3bb5rIB2uZO34EGsWXY6V+yA=
+@size 10290
+share/examples/openvpn/sample-config-files/static-home.conf
+@sha EfvEY3vJFG1Mn2B405Uhv3/AmujcQ6epHA7Y6eo3y10=
+@size 1744
+share/examples/openvpn/sample-config-files/static-office.conf
+@sha /0PmxQV2iMCrm0X49bpK3xi91HrOWaUs/NeE+SHpDnw=
+@size 1690
+share/examples/openvpn/sample-config-files/tls-home.conf
+@sha kvaTpZ2eLPvPLiUy1e6luoxvYkcn+AU0+l9wm3SAggg=
+@size 1939
+share/examples/openvpn/sample-config-files/tls-office.conf
+@sha COS7OxWdqnzVyIQpRyPPPOXcx4Ln4LOATfeKPrHiHZc=
+@size 1950
+share/examples/openvpn/sample-config-files/xinetd-client-config
+@sha CxbITym550pIc89Amlc/MtdPt1YsUTLQ6HX3FZ0QPkg=
+@size 201
+share/examples/openvpn/sample-config-files/xinetd-server-config
+@sha 1VbjQEeZDd3zkwTVgL/JKcsgmZMPGZxKPaKxzqkNoEI=
+@size 991
+share/examples/openvpn/sample-keys/
+share/examples/openvpn/sample-keys/README
+@sha Ok0DKKCc1SvqGC4u2G0EDA19ijT5viWuD/TWSfQjHCU=
+@size 467
+share/examples/openvpn/sample-keys/ca.crt
+@sha NhsHkJ/l7T7V4B4Dc9hGoS1FnzbWnW6FCIFqdcywiNE=
+@size 1111
+share/examples/openvpn/sample-keys/ca.key
+@sha wHJNZc6Qg2GW896RAYEjiFCnJDDW5ccZcFhAY+3/Wuk=
+@size 887
+share/examples/openvpn/sample-keys/client.crt
+@sha XDZ86CCtirRoqc3Qk+xQAbK5m2o9fp5ee3sBSN1gDxc=
+@size 3406
+share/examples/openvpn/sample-keys/client.key
+@sha NbSapkhJ5TgoQ+zrVSeDM7nbwApBvuCXoAU4YXsFJR0=
+@size 887
+share/examples/openvpn/sample-keys/dh1024.pem
+@sha kxCPgwzh/8dMzFwMRddNKeL04CV73ei31Ih17vwSoas=
+@size 245
+share/examples/openvpn/sample-keys/pass.crt
+@sha bBNubWT2Ua4CeXZTQK4F4nR4i1c1za5sVwIKldomGqw=
+@size 3427
+share/examples/openvpn/sample-keys/pass.key
+@sha zaPARW3CgAsXYow3PtCRsWSpXCKINv/nK5ccmfavQ64=
+@size 963
+share/examples/openvpn/sample-keys/pkcs12.p12
+@sha QzAeqZ0fp7DRNl8c5iA8lOO9BFx3yEEzPr7ICGvAnp8=
+@size 2685
+share/examples/openvpn/sample-keys/server.crt
+@sha Y80/m27WEXRwng8Jj6JLa3pgMGdFMnVeXXrj0fwGoLo=
+@size 3513
+share/examples/openvpn/sample-keys/server.key
+@sha mE5k95YChGWSmjZ3NTPjg0oIXErZ2j+EuVhZ45czMQ4=
+@size 891
+share/examples/openvpn/sample-scripts/
+share/examples/openvpn/sample-scripts/auth-pam.pl
+@sha B0FB4YEEC5EUQK03x/hFdB7JzF+455RtkLKag5LsMXs=
+@size 2408
+share/examples/openvpn/sample-scripts/bridge-start
+@sha a9Y1kGe4UMC8PV7WhYF3T1MvaHqVVNrx2mNgO2mxQjk=
+@size 741
+share/examples/openvpn/sample-scripts/bridge-stop
+@sha xaXFe5TV++SHmaInNW6A8SVX2nWugc11EIOMcW835rU=
+@size 313
+share/examples/openvpn/sample-scripts/ucn.pl
+@sha mmuNXVJBBbsO/1EIpASUxSraFvs1r7bOH04P5okb9gE=
+@size 339
+share/examples/openvpn/sample-scripts/verify-cn
+@sha aXp7s8kP0RHsljObei/oOhRE0znzjCbK/d0M7p8zKFc=
+@size 2183

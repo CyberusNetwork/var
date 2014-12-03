@@ -1,0 +1,84 @@
+lease 192.168.1.3 {
+	starts 3 2014/12/03 13:11:26 UTC;
+	ends 4 2014/12/04 01:11:26 UTC;
+	hardware ethernet 44:1e:a1:ce:ed:1d;
+	uid 01:44:1e:a1:ce:ed:1d;
+	client-hostname "ITI1110";
+}
+lease 192.168.1.2 {
+	starts 1 2014/11/24 14:46:54 UTC;
+	ends 2 2014/11/25 02:46:54 UTC;
+	hardware ethernet 10:bf:48:28:71:64;
+	uid 01:10:bf:48:28:71:64;
+	client-hostname "MirOoku-PC";
+}
+lease 192.168.1.1 {
+	starts 1 2014/11/24 14:18:11 UTC;
+	ends 2 2014/11/25 02:18:11 UTC;
+	hardware ethernet 08:60:6e:11:58:98;
+	uid 01:08:60:6e:11:58:98;
+	client-hostname "PC-ADRIEN";
+}
+lease 192.168.1.3 {
+	starts 3 2014/12/03 13:12:42 UTC;
+	ends 4 2014/12/04 01:12:42 UTC;
+	hardware ethernet 44:1e:a1:ce:ed:1d;
+	uid 01:44:1e:a1:ce:ed:1d;
+	client-hostname "ITI1110";
+}
+lease 192.168.1.3 {
+	starts 3 2014/12/03 13:13:49 UTC;
+	ends 4 2014/12/04 01:13:49 UTC;
+	hardware ethernet 44:1e:a1:ce:ed:1d;
+	uid 01:44:1e:a1:ce:ed:1d;
+	client-hostname "ITI1110";
+}
+lease 192.168.1.3 {
+	starts 3 2014/12/03 13:15:05 UTC;
+	ends 4 2014/12/04 01:15:05 UTC;
+	hardware ethernet 44:1e:a1:ce:ed:1d;
+	uid 01:44:1e:a1:ce:ed:1d;
+	client-hostname "ITI1110";
+}
+lease 192.168.1.3 {
+	starts 3 2014/12/03 13:19:21 UTC;
+	ends 4 2014/12/04 01:19:21 UTC;
+	hardware ethernet 44:1e:a1:ce:ed:1d;
+	uid 01:44:1e:a1:ce:ed:1d;
+	client-hostname "ITI1110";
+}
+lease 192.168.1.3 {
+	starts 3 2014/12/03 13:22:13 UTC;
+	ends 4 2014/12/04 01:22:13 UTC;
+	hardware ethernet 44:1e:a1:ce:ed:1d;
+	uid 01:44:1e:a1:ce:ed:1d;
+	client-hostname "ITI1110";
+}
+lease 192.168.1.3 {
+	starts 3 2014/12/03 13:29:31 UTC;
+	ends 4 2014/12/04 01:29:31 UTC;
+	hardware ethernet 44:1e:a1:ce:ed:1d;
+	uid 01:44:1e:a1:ce:ed:1d;
+	client-hostname "ITI1110";
+}
+lease 192.168.1.3 {
+	starts 3 2014/12/03 13:32:23 UTC;
+	ends 4 2014/12/04 01:32:23 UTC;
+	hardware ethernet 44:1e:a1:ce:ed:1d;
+	uid 01:44:1e:a1:ce:ed:1d;
+	client-hostname "ITI1110";
+}
+lease 192.168.1.3 {
+	starts 3 2014/12/03 13:39:40 UTC;
+	ends 4 2014/12/04 01:39:40 UTC;
+	hardware ethernet 44:1e:a1:ce:ed:1d;
+	uid 01:44:1e:a1:ce:ed:1d;
+	client-hostname "ITI1110";
+}
+lease 192.168.1.3 {
+	starts 3 2014/12/03 13:42:05 UTC;
+	ends 4 2014/12/04 01:42:05 UTC;
+	hardware ethernet 44:1e:a1:ce:ed:1d;
+	uid 01:44:1e:a1:ce:ed:1d;
+	client-hostname "ITI1110";
+}

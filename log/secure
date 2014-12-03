@@ -1,0 +1,37 @@
+Dec  2 12:00:02 cyberus newsyslog[22563]: logfile turned over
+Dec  2 13:42:59 cyberus sudo:   costet : TTY=ttyp6 ; PWD=/var/tinydns/root ; USER=root ; COMMAND=/usr/local/bin/vim data
+Dec  2 13:43:16 cyberus sudo:   costet : TTY=ttyp6 ; PWD=/var/tinydns/root ; USER=root ; COMMAND=/usr/local/bin/nano data
+Dec  2 14:10:54 cyberus sudo:   costet : TTY=ttyp6 ; PWD=/var/www/scripts ; USER=root ; COMMAND=/usr/local/bin/bash ./AddDomain.sh
+Dec  2 14:13:50 cyberus sudo:   costet : TTY=ttyp3 ; PWD=/home/costet ; USER=root ; COMMAND=/usr/local/bin/nano /var/tinydns/root/data
+Dec  2 14:21:03 cyberus sudo:   costet : TTY=ttyp3 ; PWD=/var/tinydns/env ; USER=root ; COMMAND=/usr/bin/find / -name dnscache
+Dec  2 14:34:50 cyberus sudo:   costet : TTY=ttyp3 ; PWD=/home/costet ; USER=root ; COMMAND=/usr/sbin/adduser
+Dec  2 14:37:43 cyberus sudo:   costet : TTY=ttyp3 ; PWD=/home/costet ; USER=root ; COMMAND=/usr/sbin/useradd -g 103 -u 105 -d /nonexistent -c tinydns -s /sbin/nologin dnscache
+Dec  2 14:43:38 cyberus sudo:   costet : TTY=ttyp3 ; PWD=/home/costet ; USER=root ; COMMAND=/usr/local/bin/dnscache-conf dnscache dnslog /var/dnscache 88.177.168.133
+Dec  2 14:53:07 cyberus sudo:   costet : TTY=ttyp3 ; PWD=/var/dnscache/root/ip ; USER=root ; COMMAND=/usr/bin/touch 192.168
+Dec  2 15:14:40 cyberus sudo:   costet : TTY=ttyp3 ; PWD=/var ; USER=root ; COMMAND=/usr/bin/find / -name dnscache
+Dec  2 15:16:04 cyberus sudo:   costet : TTY=ttyp3 ; PWD=/var ; USER=root ; COMMAND=/bin/rm -rf dnscache/
+Dec  2 15:17:07 cyberus sudo:   costet : TTY=ttyp3 ; PWD=/var ; USER=root ; COMMAND=/usr/local/bin/dnscache-conf dnscache dnslog /var/dnscache 10.8.100.2
+Dec  2 15:18:13 cyberus sudo:   costet : TTY=ttyp3 ; PWD=/var/dnscache/root/ip ; USER=root ; COMMAND=/usr/bin/touch 10.8
+Dec  2 15:26:49 cyberus sudo:   costet : TTY=ttyp3 ; PWD=/var ; USER=root ; COMMAND=/bin/ln -s /service/dnscache /service
+Dec  2 15:58:11 cyberus sudo:   costet : TTY=ttyp1 ; PWD=/var/tinydns/root ; USER=root ; COMMAND=/bin/cp data.old data
+Dec  2 15:58:40 cyberus sudo:   costet : TTY=ttyp1 ; PWD=/var/tinydns/root ; USER=root ; COMMAND=/usr/bin/make
+Dec  2 16:46:14 cyberus sudo:   costet : TTY=ttyp1 ; PWD=/var/tinydns/root ; USER=root ; COMMAND=/bin/ksh
+Dec  2 17:35:10 cyberus sudo:   costet : TTY=ttyp2 ; PWD=/service ; USER=root ; COMMAND=/usr/local/bin/svstat /etc/service/*
+Dec  2 17:35:38 cyberus sudo:   costet : TTY=ttyp2 ; PWD=/service ; USER=root ; COMMAND=/usr/local/bin/svstat /service/dnscache /service/tinydns
+Dec  2 17:43:20 cyberus sudo:   costet : TTY=ttyp2 ; PWD=/var/dnscache ; USER=root ; COMMAND=/bin/cat seed
+Dec  2 17:47:07 cyberus sudo:   costet : TTY=ttyp2 ; PWD=/var/dnscache ; USER=root ; COMMAND=/bin/ln -s D /service
+Dec  2 17:53:45 cyberus sudo:   costet : TTY=ttyp2 ; PWD=/var/dnscache ; USER=root ; COMMAND=/bin/ln -s /var/dnscache /service
+Dec  2 17:56:21 cyberus sudo:   costet : TTY=ttyp2 ; PWD=/var/dnscache ; USER=root ; COMMAND=/bin/ksh
+Dec  2 19:07:56 cyberus sudo:   costet : TTY=ttyp1 ; PWD=/home/costet ; USER=root ; COMMAND=/bin/ksh
+Dec  2 19:17:53 cyberus sudo: thibault : TTY=ttyp2 ; PWD=/home/thibault ; USER=root ; COMMAND=/bin/ksh
+Dec  2 22:14:00 cyberus sudo:   costet : TTY=ttyp0 ; PWD=/home/costet ; USER=root ; COMMAND=/bin/ksh
+Dec  2 23:46:24 cyberus sudo:   costet : TTY=ttyp1 ; PWD=/home/costet ; USER=root ; COMMAND=/bin/ksh
+Dec  3 09:26:59 cyberus sudo:   costet : TTY=ttyp4 ; PWD=/var/www/htdocs/admin/scripts/dhcp ; USER=root ; COMMAND=/bin/ksh
+Dec  3 09:30:39 cyberus sudo:   costet : TTY=ttyp5 ; PWD=/etc ; USER=root ; COMMAND=/bin/ksh
+Dec  3 10:06:09 cyberus sudo: thibault : TTY=ttyp6 ; PWD=/home/thibault ; USER=root ; COMMAND=/bin/ksh
+Dec  3 11:38:16 cyberus sudo:   costet : TTY=ttyp8 ; PWD=/home/costet ; USER=root ; COMMAND=/bin/ksh -c rm -rf img/
+Dec  3 11:38:50 cyberus sudo:   costet : TTY=ttyp8 ; PWD=/var/apache2/htdocs ; USER=root ; COMMAND=/bin/ksh
+Dec  3 14:57:53 cyberus sudo:   costet : TTY=ttyp0 ; PWD=/ ; USER=root ; COMMAND=/bin/ksh
+Dec  3 15:09:23 cyberus sudo:   costet : TTY=ttyp1 ; PWD=/ ; USER=root ; COMMAND=/bin/ksh
+Dec  3 15:12:54 cyberus sudo: thibault : TTY=ttyp2 ; PWD=/home/thibault ; USER=root ; COMMAND=/bin/ksh
+Dec  3 15:24:25 cyberus sudo: thibault : TTY=ttyp3 ; PWD=/home/thibault ; USER=root ; COMMAND=/bin/ksh

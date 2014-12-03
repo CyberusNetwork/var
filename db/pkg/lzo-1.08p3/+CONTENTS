@@ -1,0 +1,70 @@
+@comment $OpenBSD: PLIST,v 1.9 2014/01/11 11:22:43 espie Exp $
+@name lzo-1.08p3
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.5/packages/i386/lzo-1.08p3.tgz
+@signer openbsd-55-pkg
+@digital-signature signify:2014-03-06T00:38:00Z:RWQQC1M9dhm/tiFsYCqO8cNFMBKGR29EdzgiKevnn3hUjg9udttCCHklLMvsGyLe9LCMi3G7f7ekaBb6C6XMMv7i/XM2oGOUdQs=
+@option manual-installation
+@comment pkgpath=archivers/lzo cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha aoa8J7tNKbyU5HkUESIhoPJZTSrxvnQAECwKb4+iXLY=
+@size 940
+@cwd /usr/local
+include/lzo1.h
+@sha aB5d0+aTVF4jS77PcE2TuI/eFehFo9UqQ9is9ATi2PE=
+@size 2959
+include/lzo16bit.h
+@sha AXzQZmbFIY3SfydjDSv9UydmMIN96Ua895TbIrcDcpo=
+@size 2746
+include/lzo1a.h
+@sha V6ptsMSG6WBezW7B5Wza+9HwO71R/kAbjYyuoOBOMqg=
+@size 2963
+include/lzo1b.h
+@sha +Hnr27X7NST09NGkxDaHExwnBBk9qcV0I0YQfVtQFD8=
+@size 5753
+include/lzo1c.h
+@sha mOB488y6kgPqU2DNFnUe0a5jkvL0llJ0jSTvBYj40PI=
+@size 5748
+include/lzo1f.h
+@sha zZ0qRJC/3f6N+jEzAmT7pjiKvuACsxyyGAXqrH4UnOY=
+@size 3399
+include/lzo1x.h
+@sha Fv+5yqZkmXNVe9FL2FdnuRTGfCqC1PXH4gKySf8MAjk=
+@size 6222
+include/lzo1y.h
+@sha G+1j/SJywEB5N0ZCkGB/0/DVKWqUdyxWJxMEbggVTXI=
+@size 4998
+include/lzo1z.h
+@sha Q95ApXrtzOsepIy6bsW7QywMlyq1ayYs2JRH6HD08m4=
+@size 5075
+include/lzo2a.h
+@sha qWhRRDjplq2wCwxTg9LikWHZAB5lwq0hT2Pf1vCcwN0=
+@size 2853
+include/lzoconf.h
+@sha c6bbYZ2DE57UWxPIn412khzn+fH/z4ExqSRty2vYDGY=
+@size 15110
+include/lzoutil.h
+@sha OEznrPYyLSKQLdeU4DfSvJQDSx4OYKbteOAhW36S57w=
+@size 2917
+lib/liblzo.a
+@sha bdTSWCAlLf8gNixBbjOZ8UEfmQHeo9U1nR/kBOgAHRA=
+@size 181628
+lib/liblzo.la
+@sha Pborf67HFr2E3t0gpR0as28I9ADsrKhDkqxBXBAy4lA=
+@size 710
+@lib lib/liblzo.so.1.0
+@sha UkI4w/TEsUUqBu3dVMwuNSvfSOllu79VLgMB49kofmw=
+@size 134996
+share/doc/lzo/
+share/doc/lzo/LTEST.TXT
+@sha xpnLP/JGZDreO6HvIsjq+o7nD87XrEASEalcsLK4/MM=
+@size 1443
+share/doc/lzo/LZO.FAQ
+@sha 223SPn2zWKYeMbYiYCAmQ7yaD+Hx2XX0SYhAYXEnuYk=
+@size 7509
+share/doc/lzo/LZO.TXT
+@sha TPwV1wwiQX1fjFE7SVTeIhm4D+Vb94GhsXcxw1uZtHY=
+@size 13217
+share/doc/lzo/LZOAPI.TXT
+@sha zylb6O6RqaVnctcHGKmbiHqL+L8JTjSbh6iFLEqZjgE=
+@size 7028

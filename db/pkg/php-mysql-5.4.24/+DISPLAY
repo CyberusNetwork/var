@@ -1,0 +1,5 @@
+You can enable this module by creating a symbolic link from
+/etc/php-5.4.sample/mysql.ini to
+/etc/php-5.4/mysql.ini. As root:
+
+    ln -sf /etc/php-5.4.sample/mysql.ini /etc/php-5.4/mysql.ini

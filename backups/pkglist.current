@@ -1,0 +1,59 @@
+apache-httpd-2.2.26 apache HTTP server
+apr-1.4.6p3         Apache Portable Runtime
+apr-util-1.4.1p2    companion library to APR
+bash-4.2.45p0       GNU Bourne Again Shell
+bzip2-1.0.6p0       block-sorting file compressor, unencumbered
+cairo-1.12.16       vector graphics library
+curl-7.34.0p0       get files from FTP, Gopher, HTTP or HTTPS servers
+cvsps-2.1p0         generate patchsets from CVS repositories
+db-4.6.21p0v0       Berkeley DB package, revision 4
+femail-0.98         simple SMTP client
+femail-chroot-0.98p2 simple SMTP client for chrooted web servers
+gettext-0.18.2p4    GNU gettext
+git-1.8.5.3         GIT - Tree History Storage Tool
+glib2-2.38.2p6      general-purpose utility library
+graphite2-1.2.4     rendering for complex writing systems
+gsed-4.2.2p0        GNU stream editor
+harfbuzz-0.9.25     text shaping library
+libelf-0.8.13p1     read, modify, create ELF files on any arch
+libffi-3.0.9p6      Foreign Function Interface
+libiconv-1.14p1     character set conversion library
+libidn-1.28p0       internationalized string handling
+libxml-2.9.1        XML parsing library
+lzo-1.08p3          portable speedy lossless data compression library
+lzo2-2.06p0         portable speedy lossless data compression library
+mysql-client-5.1.73v0 multithreaded SQL database (client)
+mysql-server-5.1.73v0 multithreaded SQL database (server)
+nano-2.2.6          Pico editor clone with enhancements
+net-snmp-5.7.2p1    extendable SNMP implementation
+numlockx-1.1p0      start X11 with NumLock turned on
+openvpn-2.3.2       easy-to-use, robust, and highly configurable VPN
+p5-Clone-0.34       recursively copy Perl datatypes
+p5-Crypt-OpenSSL-Bignum-0.04p4 OpenSSL's multiprecision integer arithmetic
+p5-Crypt-OpenSSL-DSA-0.14 implements DSA using OpenSSL
+p5-Crypt-OpenSSL-RSA-0.28 RSA encoding and decoding using OpenSSL
+p5-Crypt-OpenSSL-Random-0.06 routines for accessing the OpenSSL prng
+p5-Crypt-OpenSSL-X509-1.803 access OpenSSL's X509 API from Perl
+p5-DBD-mysql-4.023p0 MySQL drivers for the Perl DBI
+p5-DBI-1.622        unified perl interface for database access
+p5-Error-0.17019    error/exception handling in an OO-ish way
+p5-FreezeThaw-0.5001 module for converting structures to strings and back
+p5-MLDBM-2.05       store multi-level hash structure in single-level tied hash
+p5-Net-Daemon-0.48  extension for portable daemons
+p5-Params-Util-1.07 utility to make parameter checking easier
+p5-PlRPC-0.2018p1   module for writing rpc servers and clients
+p5-SQL-Statement-1.33 sql parsing and processing
+pango-1.36.2        library for layout and rendering of text
+pcre-8.33           perl-compatible regular expression library
+php-5.4.24-ap2      server-side HTML-embedded scripting language
+php-mysql-5.4.24    mysql database access extensions for php5
+png-1.6.8           library for manipulating PNG images
+python-2.7.6p0      interpreted object-oriented programming language
+quirks-1.113        exceptions to pkg_add rules
+rrdtool-1.4.8p1     system to store and display time-series data
+rrdupdate-1.4.8     lightweight update-only tool for rrdtool
+rsync-3.1.0         mirroring/synchronization over low bandwidth links
+screen-4.0.3p4      multi-screen window manager
+tree-0.61p3         print ascii formatted tree of a directory structure
+vim-7.4.135p0-no_x11 vi clone, many additional features
+wget-1.15           retrieve files from the web via HTTP, HTTPS and FTP

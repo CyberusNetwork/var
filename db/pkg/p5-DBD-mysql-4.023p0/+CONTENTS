@@ -1,0 +1,48 @@
+@comment $OpenBSD: PLIST,v 1.5 2007/09/16 11:37:29 simon Exp $
+@name p5-DBD-mysql-4.023p0
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.5/packages/i386/p5-DBD-mysql-4.023p0.tgz
+@signer openbsd-55-pkg
+@digital-signature signify:2014-03-06T00:39:59Z:RWQQC1M9dhm/tgiPO6xtoFCLHMkg6zbMRFCucOjswiIO9s7knV7ZKip/xzOlIGe2rxllJt4srneYB2HpfCRrVANQh+ladlPZjgc=
+@comment pkgpath=databases/p5-DBD-mysql cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha yJaHOXXdGG74DfSyjLw+D8of4sz1m2wMRS7uyU8Y+v4=
+@size 458
+@depend databases/mysql,-main:mysql-client-*:mysql-client-5.1.73v0
+@depend databases/p5-DBI:p5-DBI->=1.08:p5-DBI-1.622
+@wantlib c.73.1
+@wantlib crypto.23.0
+@wantlib lib/mysql/mysqlclient.23.0
+@wantlib m.9.0
+@wantlib perl.14.0
+@wantlib pthread.18.0
+@wantlib ssl.20.0
+@wantlib z.5.0
+@cwd /usr/local
+@comment libdata/perl5/site_perl/i386-openbsd/Bundle/DBD/
+@comment libdata/perl5/site_perl/i386-openbsd/Bundle/DBD/mysql.pm
+libdata/perl5/site_perl/i386-openbsd/DBD/mysql/
+libdata/perl5/site_perl/i386-openbsd/DBD/mysql.pm
+@sha Lheg3DcPVr40Herxl2AX11TVafh9d3IddY6Jn4QMDzo=
+@size 64596
+libdata/perl5/site_perl/i386-openbsd/DBD/mysql/GetInfo.pm
+@sha 5J7eDVLoYIeJIbshDusLd8LRgnEfaNyXM2Gzqq6m8LI=
+@size 16031
+@comment libdata/perl5/site_perl/i386-openbsd/DBD/mysql/INSTALL.pod
+libdata/perl5/site_perl/i386-openbsd/auto/DBD/
+libdata/perl5/site_perl/i386-openbsd/auto/DBD/mysql/
+libdata/perl5/site_perl/i386-openbsd/auto/DBD/mysql/mysql.bs
+@sha 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+@size 0
+libdata/perl5/site_perl/i386-openbsd/auto/DBD/mysql/mysql.so
+@sha xAMx+75vY37II/RIkKmYGG7KUkTjS8QkBrw3Wc3RTsc=
+@size 232711
+@man man/man3p/Bundle::DBD::mysql.3p
+@sha edMRegWQVdmdvpMddfFtdr8qeZAWRFwnIOVplD2SFzs=
+@size 4200
+@man man/man3p/DBD::mysql.3p
+@sha yryprC2qswyqdrFaYKLPt1n6gvj5LKJbu5+gSQwb+8w=
+@size 52373
+@man man/man3p/DBD::mysql::INSTALL.3p
+@sha +gb7TVMWPVb5G/zYayekJnkrgSj1o6Bm8msJCEkEeTc=
+@size 28906

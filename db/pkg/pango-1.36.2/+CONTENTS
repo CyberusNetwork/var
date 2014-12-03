@@ -1,0 +1,435 @@
+@comment $OpenBSD: PLIST,v 1.33 2014/02/04 22:22:03 ajacoutot Exp $
+@name pango-1.36.2
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.5/packages/i386/pango-1.36.2.tgz
+@signer openbsd-55-pkg
+@digital-signature signify:2014-03-06T00:41:29Z:RWQQC1M9dhm/tsikQWasu7SkEZT45OH/cT6YxfalWF8kYb4WGoFbw+FgYQXhDVdpF8zjdgOnA/z4d4vfe7Xx3UpBP3MIIoD/Yg0=
+@comment pkgpath=devel/pango cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha ctgOPFg6wdeCUYvBtytMHV0Fw7/RGLGgkRV/zEgJLiM=
+@size 432
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend devel/gettext:gettext->=0.10.38:gettext-0.18.2p4
+@depend devel/glib2:glib2->=2.38.0:glib2-2.38.2p6
+@depend devel/harfbuzz,-main:harfbuzz-*:harfbuzz-0.9.25
+@wantlib X11.16.0
+@wantlib Xext.13.0
+@wantlib Xft.9.0
+@wantlib Xrender.6.0
+@wantlib c.73.1
+@wantlib cairo.12.2
+@wantlib expat.11.0
+@wantlib ffi.0.0
+@wantlib fontconfig.9.0
+@wantlib freetype.22.0
+@wantlib glib-2.0.3800.0
+@wantlib gmodule-2.0.3800.0
+@wantlib gobject-2.0.3800.0
+@wantlib graphite2.0.0
+@wantlib gthread-2.0.3800.0
+@wantlib harfbuzz.4.2
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@wantlib m.9.0
+@wantlib pcre.3.0
+@wantlib pixman-1.32.4
+@wantlib png.17.1
+@wantlib pthread-stubs.2.0
+@wantlib pthread.18.0
+@wantlib xcb-render.1.0
+@wantlib xcb-shm.1.0
+@wantlib xcb.3.0
+@wantlib z.5.0
+@cwd /usr/local
+@exec-update rm -f /etc/pango/pango.modules
+@unexec-delete rm -f %D/lib/pango/1.8.0/modules.cache
+@bin bin/pango-querymodules
+@sha r+agyIJV4Y+QQzBUdnsClRMfF/v2b9h5u42fT5Sink0=
+@size 32900
+@bin bin/pango-view
+@sha wONlCCns8KCq1z2mlda4O49pkVh90OhNWy/cQyl8b7c=
+@size 65924
+include/pango-1.0/
+include/pango-1.0/pango/
+include/pango-1.0/pango/pango-attributes.h
+@sha SDYQdh9Zf+G5MCxkEe6UJrumjqX5E1SPP4Lpj5qyD1I=
+@size 19353
+include/pango-1.0/pango/pango-bidi-type.h
+@sha GvWd4TtgRAdfspdk71VWSQ27b580VnEyTU/HjvdhpZQ=
+@size 4547
+include/pango-1.0/pango/pango-break.h
+@sha Igr7GIf9Zw4oLnkxi1EsDb3r0h53LeQbOeXkfPtCl04=
+@size 6578
+include/pango-1.0/pango/pango-context.h
+@sha tG1bbewW5TWOuZuB/DctnS6oJ2yGc+F9CAcxRGejvYI=
+@size 5432
+include/pango-1.0/pango/pango-coverage.h
+@sha iPSRkNjRJgyv304tUcA4TyeEgvivxENhqxwPlTQY21o=
+@size 2962
+include/pango-1.0/pango/pango-engine.h
+@sha gfMAWZ95Pt3c060L3NqhszpSZRufFh29qLuJiwfTHp8=
+@size 15858
+include/pango-1.0/pango/pango-enum-types.h
+@sha DEGv6mzux2AoaTwazUsr14i37p0Didqx3DeVmSAg5fI=
+@size 2607
+include/pango-1.0/pango/pango-features.h
+@sha nn2XXtFZStq4yCGugqiI+E4g0A4EFZs4TrJUfZUbgxs=
+@size 232
+include/pango-1.0/pango/pango-font.h
+@sha 3LcH6EFqS4aSVRe+6EgLOxujvKsh3RdTJvcWeEkpOxE=
+@size 22089
+include/pango-1.0/pango/pango-fontmap.h
+@sha OTOJQiehsKnDVKMY4Zu90/QBXGaBadBzL99j4GrNRE0=
+@size 5828
+include/pango-1.0/pango/pango-fontset.h
+@sha JIWTZX9nqx5E7AqUGxVoCtJ1tmq7/vYaSz39YU2V6JM=
+@size 5589
+include/pango-1.0/pango/pango-glyph-item.h
+@sha cQc+mmgLdX0K74k7tBlNRRcvW61HxtzD723qjBC9hWk=
+@size 5553
+include/pango-1.0/pango/pango-glyph.h
+@sha YB5F5buNHxBrSluSMPqGrYPjNekH29cZl/N6c2eM2n4=
+@size 6358
+include/pango-1.0/pango/pango-gravity.h
+@sha gPIvVQMpQGx5JxtM2i0bTV0VcS+jED0VBVoECYuz8vA=
+@size 4339
+include/pango-1.0/pango/pango-item.h
+@sha /7mT8Zwmja9R/ZVrVEAMrbpl/pMspXT38afoTqpUbEo=
+@size 2929
+include/pango-1.0/pango/pango-language.h
+@sha TLgsW/A7bNl2bcwbJtBVIRvfvn/3zf+Gniita4bx4co=
+@size 2071
+include/pango-1.0/pango/pango-layout.h
+@sha uCw9Z/p2zLGgc/NAxFMTREPj/e0FUMps2f428vPZYvI=
+@size 14558
+include/pango-1.0/pango/pango-matrix.h
+@sha DnkLjhJ6scED3wL0zRoX7oTJUhThcq6NZ12pODh/cEk=
+@size 3429
+include/pango-1.0/pango/pango-modules.h
+@sha /ZWD12SkzTuKOJj0KVTCuuuLegG2x5gKDbVJRXDJtWk=
+@size 2359
+include/pango-1.0/pango/pango-ot.h
+@sha 4PPBYmRvHdz+vjZn0+TlHe8rJTOgzhvdnn+SHn/1YTc=
+@size 14214
+include/pango-1.0/pango/pango-renderer.h
+@sha UgFK40x5B1TjQy8V952bfhxY5a/H19LMJW/R2IOYmWA=
+@size 8698
+include/pango-1.0/pango/pango-script.h
+@sha p/38Xq6a0U0irRWWtiC+aWtGnSatZAs5ByBf90EK0eY=
+@size 11049
+include/pango-1.0/pango/pango-tabs.h
+@sha 9OxedCxv+VgugNGJRPK6RdM53sLCk3HmpU2xg57OoEE=
+@size 2929
+include/pango-1.0/pango/pango-types.h
+@sha cHJhKwEtChBnY8wdVqeCkZp2/lrFPWgsGWcGR4bMM0A=
+@size 5872
+include/pango-1.0/pango/pango-utils.h
+@sha 0Bm1Sks0DADipTVRbLYOGwbeORgbhHdI81XOJA+/8sg=
+@size 6217
+include/pango-1.0/pango/pango.h
+@sha Hs0MIOfu55lLmViAho9we5Q/XSfNKGs3SRA2ETlPNkk=
+@size 1598
+include/pango-1.0/pango/pangocairo.h
+@sha WRUwO9K6tvSU1bY+LifIS2gVDpz7LSwHR3wA21UGfqg=
+@size 6354
+include/pango-1.0/pango/pangofc-decoder.h
+@sha mmWT7A1ZivyTMTlLb8/ntTTvOxWps0ZiaNlfMDPq2Zw=
+@size 3822
+include/pango-1.0/pango/pangofc-font.h
+@sha Qiod8036hQ2B/BewNtYloEnQMBZ77r1lzAQEwHY6Tc8=
+@size 5348
+include/pango-1.0/pango/pangofc-fontmap.h
+@sha 1wXTS1Ij37T46N5Yesonzoa1SF0zVnlxOlAU7ycoNiY=
+@size 10745
+include/pango-1.0/pango/pangoft2.h
+@sha 2BiorEZF2zlcCKKNNDI75dbtL6BpUGr3kI3TTYhG+u0=
+@size 4791
+include/pango-1.0/pango/pangoxft-render.h
+@sha 93GgaHoNrnohqMiRSE8dewoKAAh3w8yVw4wLmYOS/Dg=
+@size 4776
+include/pango-1.0/pango/pangoxft.h
+@sha uvjG7+KlhewOZoB7ykWER7sfWN+p0d41EiaWkNrmCSQ=
+@size 4398
+lib/girepository-1.0/
+lib/girepository-1.0/Pango-1.0.typelib
+@sha gXNhZ1zXGNfItZX0uH/ygvZcmEcT2lvrm3QVq6dhbFk=
+@size 53204
+lib/girepository-1.0/PangoCairo-1.0.typelib
+@sha lo4B1gGrF4WQ3Zt6vwJO/kln37BPV9TGcMh0NazBPNw=
+@size 4876
+lib/girepository-1.0/PangoFT2-1.0.typelib
+@sha kGu5yDEcviVB4R5lNEd0+IjXxr6PPwC19xNA0b+3Pdg=
+@size 2744
+lib/girepository-1.0/PangoXft-1.0.typelib
+@sha NiFqLgqp7oKXm9vgY5FsWeItEyzQXueyTer3byDlEPo=
+@size 4028
+lib/libpango-1.0.la
+@sha EyULwW7AtFDyMuv0cwAjmDn0YkQDb7EvhxHO53iPj4w=
+@size 1018
+@lib lib/libpango-1.0.so.3600.0
+@sha vKhQzJBzeki1wftylV1U7NqpzeyGRbq9zpZZN4idX5Y=
+@size 321530
+lib/libpangocairo-1.0.la
+@sha orVE0aq9rNhdtjPebDgdeDS4rEhMVUjkeWnEwcCR++g=
+@size 1441
+@lib lib/libpangocairo-1.0.so.3600.0
+@sha 1KAtTiysfHIpMKWKdmXumpivPVeLiQHfAWzbqYQQMIY=
+@size 135397
+lib/libpangoft2-1.0.la
+@sha +P6lTc34wfrVjl34O+ziqjLE/BLxGIOCa+A7Aoo7JFE=
+@size 1191
+@lib lib/libpangoft2-1.0.so.3600.0
+@sha 3azS6hdcKSdx7ZvEyNZg7CcWgq5BFZUHDNCgjTmEC0Q=
+@size 167742
+lib/libpangoxft-1.0.la
+@sha n9gyuKwY9QinrSNQwUxI0Lt9M1xEd2q5D/1wTlBPY6Y=
+@size 1311
+@lib lib/libpangoxft-1.0.so.3600.0
+@sha M8UyYyD8HPlpmx5s2P2s6blbH4V7JYLDTszfuUg4cqI=
+@size 110744
+lib/pango/
+lib/pango/1.8.0/
+lib/pango/1.8.0/modules/
+lib/pango/1.8.0/modules/pango-arabic-lang.so
+@sha GDLeyn6chIDYtEr8ZjYMHrazB04Zl+6I7kNBNOp9qL4=
+@size 7329
+lib/pango/1.8.0/modules/pango-basic-fc.so
+@sha KYnPkJmzsNzIMQrdmW8M6+JJfXXmdVeFdsNUwp2m4Cw=
+@size 92134
+lib/pango/1.8.0/modules/pango-indic-lang.so
+@sha zDtHPYS0jpP5YoSnIs6e6J07xgZqcgMOdA+Zk7/hkxA=
+@size 8127
+lib/pkgconfig/pango.pc
+@sha cHLs4oHRwpnsaQCIaEPe+3WYhvE0ZA6aZ+zhEGJ80OE=
+@size 336
+lib/pkgconfig/pangocairo.pc
+@sha ZEVkeUNxUKKY5oWA8Aj3rMu5ayfAikgOjLAfDtffN04=
+@size 278
+lib/pkgconfig/pangoft2.pc
+@sha O4pOgGoNwyurfvzwK8rPgudCcB0ygIihjYBhmVP2ozM=
+@size 336
+lib/pkgconfig/pangoxft.pc
+@sha N6/jOoChmHz7Jh5AVEBvWyw8bw0EkkeWgFGVQb3jakc=
+@size 264
+@man man/man1/pango-querymodules.1
+@sha dI+JwDSMT0z/F+OemByR+y6lS/N89TcI1BPUPfmiwz0=
+@size 2928
+@man man/man1/pango-view.1
+@sha D1nyMPkFy6b2Kx7PmmYvfaTcMstggRHHsczonbbrQsE=
+@size 2813
+share/gir-1.0/
+share/gir-1.0/Pango-1.0.gir
+@sha Tj51oMXyUopl145e/lmJmjGTYKYNBCBsbW4X7OMI27M=
+@size 523762
+share/gir-1.0/PangoCairo-1.0.gir
+@sha eNUH1B5KOw1jKnFLN/khJ/lwQ2RK+d6aKE+avzzWe8E=
+@size 37845
+share/gir-1.0/PangoFT2-1.0.gir
+@sha 95EazO09Y17DQLtXGZNplF3uQFiwd61+ceVKyeplWuU=
+@size 14862
+share/gir-1.0/PangoXft-1.0.gir
+@sha 1uzgcXzJar52M/5Gv8rpK6AL+w1ygYYM/0jF26HTeXs=
+@size 25312
+share/gtk-doc/html/pango/
+share/gtk-doc/html/pango/PangoEngineLang.html
+@sha 6UQWaRM7980drM4NyVTXYM1arAe/A5qFwb40Q6J0/dY=
+@size 11007
+share/gtk-doc/html/pango/PangoEngineShape.html
+@sha B5EANuLObWqB9cU3625I3TCIyjfXQeoJ5yIjPcR+OpQ=
+@size 12416
+share/gtk-doc/html/pango/PangoFcDecoder.html
+@sha gGIj7YgTVtdz6PUdOESxFkgTXlPOnxY8KEvRB/iEYr8=
+@size 11599
+share/gtk-doc/html/pango/PangoFcFont.html
+@sha AJH2oZWJR2iIbmtMLHFG5+Yg7+taNY6fxJ9xBVdXHFA=
+@size 23173
+share/gtk-doc/html/pango/PangoFcFontMap.html
+@sha WfIwLdVPEs89rSTulEQippKM6WAOIkFeF3Fwu7FNyLs=
+@size 48894
+share/gtk-doc/html/pango/PangoMarkupFormat.html
+@sha ljKdlpE6DUOxzk6DrqQtRTfUbMiIGmAf6XwsVY2Aw8M=
+@size 10511
+share/gtk-doc/html/pango/PangoRenderer.html
+@sha AO5W5ad4YjProRh0/8XlPLoxYSGLLbjEHwvq5ysePlQ=
+@size 61952
+share/gtk-doc/html/pango/annotation-glossary.html
+@sha Zqtb/HcoXwKT5yC0Z47kzZ8R5031nHc/ndrPL3l3sRo=
+@size 4681
+share/gtk-doc/html/pango/api-index-1-10.html
+@sha XdANtRCSK7N2uyNlqgT3a2+u+CbfpE+2FC+tzMPSosY=
+@size 8659
+share/gtk-doc/html/pango/api-index-1-12.html
+@sha Lb+Gb7NwKVArmGbcaterMDB24BsTyAXF9woSIqDFTPk=
+@size 2963
+share/gtk-doc/html/pango/api-index-1-14.html
+@sha t1C462aSAh++oQ2imPWXZC6j5bNy30DhrFEUPdstf4U=
+@size 3738
+share/gtk-doc/html/pango/api-index-1-16.html
+@sha uS1mLSDUNKO/lLPDB0rRdfiZVtb6kGNgX8rC626Wke8=
+@size 14478
+share/gtk-doc/html/pango/api-index-1-18.html
+@sha YNDH81ej9DPRLs52OchlRnA8mbbLsEHJQg1UYIo4/dU=
+@size 10547
+share/gtk-doc/html/pango/api-index-1-2.html
+@sha IzXE1LQzwNIKZoNDpUzH95eY7a2ZAcLT9b657Sotgqo=
+@size 8225
+share/gtk-doc/html/pango/api-index-1-20.html
+@sha W9M+qtsVR8yyoMB8f/Qenmvll77wpjRBaSL18dVaCEw=
+@size 5052
+share/gtk-doc/html/pango/api-index-1-22.html
+@sha SmxQDMu2OLTShde9/ZcNuXU2Aou+wlSNHUIrFe0q778=
+@size 7551
+share/gtk-doc/html/pango/api-index-1-24.html
+@sha KIke8fR8L/yl/9HC+p+HsqaZvoXNdlNFdCXlv95/0Ac=
+@size 6056
+share/gtk-doc/html/pango/api-index-1-26.html
+@sha kQEfrMoECqNKgEFy7ibz+FwwLuCBWdKmqWM3BbZvQMs=
+@size 2740
+share/gtk-doc/html/pango/api-index-1-30.html
+@sha RbW6NtonPNmePAqLlhzkR4w2DL39qavzu9YEsWLDSrY=
+@size 2335
+share/gtk-doc/html/pango/api-index-1-31-0.html
+@sha waX/aGSdEiPUiOkTO+wddVqv3SITDTq3qGNbofAMLc4=
+@size 2287
+share/gtk-doc/html/pango/api-index-1-32-4.html
+@sha QnLobKzO17nJZGqnUSCXhskGYdkwtMJniSQ5My8jhuU=
+@size 3011
+share/gtk-doc/html/pango/api-index-1-32.html
+@sha mgOB3bMdzFDvkFlZ+v/reDWp/YYFwsR+4Ha+y+TZHYY=
+@size 2385
+share/gtk-doc/html/pango/api-index-1-34.html
+@sha 9RzyWgMyWrYvvnMj6JRamUr4FNbhVyy5v37zQQSXNaE=
+@size 2088
+share/gtk-doc/html/pango/api-index-1-4.html
+@sha 0hyIe9j2hg1usat0RDAjW1Dc2o5a8ktPwTPbSeAu09I=
+@size 12859
+share/gtk-doc/html/pango/api-index-1-6.html
+@sha 1xlenbK5CgkmGwSGRIC02eF6oRSNMmnC74cFxplIJck=
+@size 10376
+share/gtk-doc/html/pango/api-index-1-8.html
+@sha 9tVTyk0cZtPoIXZNynNOe1s6s96CnSzZD43yXx7yDyA=
+@size 10956
+share/gtk-doc/html/pango/api-index-deprecated.html
+@sha HLNA+MJmqzk589StsNWhcAEq7RvJfelgISrrj+rdA7M=
+@size 20363
+share/gtk-doc/html/pango/api-index-full.html
+@sha JERBEK16BY9IedyVvBRJ4oK1SdIgsfBXZ/YlH7pS7Lg=
+@size 195118
+share/gtk-doc/html/pango/home.png
+@sha eo0ksA9ftruwRGJJtgXv3TZZjooPZaw/qy4YQ4xzuR4=
+@size 256
+share/gtk-doc/html/pango/index.html
+@sha RBV2k5EKkwSop/uivNzC/DBR0/ZchNWLXFFBLAYElY4=
+@size 8707
+share/gtk-doc/html/pango/index.sgml
+@sha RP4Zqt5rrvFTIiWR92oZnIyBCDAFc1ziXdb0bofSxZs=
+@size 118482
+share/gtk-doc/html/pango/layout.gif
+@sha QnyrAE3vYgjfyhxjFROEfRwdsVb0qsrnIdaeAaktWm4=
+@size 5572
+share/gtk-doc/html/pango/left-insensitive.png
+@sha MDNV2TysU0EJl9x6P5vWDzzg2OuueQiXjIcx/puxOf8=
+@size 395
+share/gtk-doc/html/pango/left.png
+@sha Drlv53VSTC1NTxZ9eQQbF8XMiukRJHhmUTLDGhQX+0o=
+@size 262
+share/gtk-doc/html/pango/lowlevel.html
+@sha brx3KIKdMHYU5EBhYUvfj0QrhKTj/X5bnGvbIjlayok=
+@size 3785
+share/gtk-doc/html/pango/pango-Bidirectional-Text.html
+@sha UTol8kqI6u84llvvnMmwIzcSVD+dW3Q/j3qF8P+MxuE=
+@size 22606
+share/gtk-doc/html/pango/pango-Cairo-Rendering.html
+@sha 4GW0HTkP8UMFNcsKa7v9Cux6rhHksdtv4aZ7cWZIw2I=
+@size 95380
+share/gtk-doc/html/pango/pango-CoreText-Fonts.html
+@sha o7goiyK2ayzFvUM5JllExincytlUSH9u6Z1QvGVsMcU=
+@size 4507
+share/gtk-doc/html/pango/pango-Coverage-Maps.html
+@sha nIgWpGuAwi2dzGcJLAXd0yYRbBSDKMZQskt+Xz8zE8M=
+@size 25537
+share/gtk-doc/html/pango/pango-Engines.html
+@sha KXZGE67IAgPXOv3qq2VldVpRDr8DJbv+yM7vov2Y44k=
+@size 16020
+share/gtk-doc/html/pango/pango-Fonts.html
+@sha Vmuw0kNgom/RXxvY2CqfAdleTo4B22JZn9hREuCD1W8=
+@size 208572
+share/gtk-doc/html/pango/pango-FreeType-Fonts-and-Rendering.html
+@sha Dr8f2IY1coB2INugK3Le26lAjdnzpx324cDIx9Cl2+M=
+@size 53399
+share/gtk-doc/html/pango/pango-Glyph-Storage.html
+@sha cRSLFVBybAledqYCpLX1YOtqAk6w2YLR9rag0dUL94k=
+@size 134969
+share/gtk-doc/html/pango/pango-Layout-Objects.html
+@sha F/bWXHesvezXLxcuezfpiiNc7AkdAGAhKGTBxWNa86g=
+@size 229856
+share/gtk-doc/html/pango/pango-Miscellaneous-Utilities.html
+@sha UR3yoMcwqof+J8bPQNKLdojf8ZuUAVHx470sO/Xq4KE=
+@size 52229
+share/gtk-doc/html/pango/pango-Modules.html
+@sha yEbJoyaDzyOo+Sx5CE3U2fhjH9uKln/KtJvFHZRz9gs=
+@size 15523
+share/gtk-doc/html/pango/pango-OpenType-Font-Handling.html
+@sha BzHHt271sMkKXOXvI8QPHRz90SRKHiKicVGQvcLGt5Y=
+@size 137806
+share/gtk-doc/html/pango/pango-Scripts-and-Languages.html
+@sha VgYtJjPscrFVoKg1DvlCidtMak7L8s4CD6x62rBkkpg=
+@size 65919
+share/gtk-doc/html/pango/pango-Tab-Stops.html
+@sha ba+KcnWQUGB8MrOQiOzS1acIDvKJDX8xj0x9rR0My7M=
+@size 31118
+share/gtk-doc/html/pango/pango-Text-Attributes.html
+@sha sI+a4sMiMQ21R5ZEWQ/+N8SKTSrEIMB6Qz/Ww3G/h4E=
+@size 184318
+share/gtk-doc/html/pango/pango-Text-Processing.html
+@sha NMQy3HbMAjujbJPOstVu7XWYQMloPyskv5O+7o0YTuU=
+@size 119450
+share/gtk-doc/html/pango/pango-Version-Checking.html
+@sha EouGo2K3y7a+752aCJa3OTuTvd4uGk07g7Hpj+K9kZs=
+@size 14070
+share/gtk-doc/html/pango/pango-Vertical-Text.html
+@sha eyfcWM52L1wSyXZ1uLpySTZ/PROs9eN+I8rErEgfJsw=
+@size 29615
+share/gtk-doc/html/pango/pango-Win32-Fonts-and-Rendering.html
+@sha OLsd03VxyYnzw6Ba86jDeriPw5kHYqtrAazSIKXveTI=
+@size 53984
+share/gtk-doc/html/pango/pango-Xft-Fonts-and-Rendering.html
+@sha Si7ailP450GFyIF/JDgYupPQK6eTIPKUoXCHwAwaixg=
+@size 66672
+share/gtk-doc/html/pango/pango-hierarchy.html
+@sha oOWwMUAJZ2JeJ71Abdpi46OhcYfoky1vCjpcXdNnFYQ=
+@size 6685
+share/gtk-doc/html/pango/pango-querymodules.html
+@sha aD3KGFKi56Un74lAd01JizHoGTNB0qfoZX2mj9V4FI8=
+@size 5100
+share/gtk-doc/html/pango/pango.devhelp2
+@sha xcmlYEVMejd3Of5jSscP7IcGbK5TbdCPTO/VgeRXtrM=
+@size 122763
+share/gtk-doc/html/pango/pango.html
+@sha CL+r+/17ZP+m/5guiFABJueJ0Q20IXVqDsCwQaUw89c=
+@size 3441
+share/gtk-doc/html/pango/rendering.html
+@sha 79J87ByTov1ISYL8IrdIcwxltR9dZSyhvjVWa+9BYoU=
+@size 2681
+share/gtk-doc/html/pango/right-insensitive.png
+@sha eUBQxkxJhCBZkWLys7aSgjLdC+eZHZQrHcCxZw64aV4=
+@size 373
+share/gtk-doc/html/pango/right.png
+@sha BimtOCgBhL4blGAvIBVweigXAVEFj3FxrtpQH88JedM=
+@size 261
+share/gtk-doc/html/pango/rotated-text.png
+@sha AW4+l5W2A3Wusg2xDnv86OSty8GO8BjWyHgBmlPcDj4=
+@size 23044
+share/gtk-doc/html/pango/style.css
+@sha ueCNX0PAn5WVtzilWUddC4qDtABWonLcn0XhB4N0Cz0=
+@size 5713
+share/gtk-doc/html/pango/tools.html
+@sha BlGjXBW5ZYWcvgu4oJYlyM2rYp3lnTrzB5AfKNXsr6w=
+@size 1818
+share/gtk-doc/html/pango/up-insensitive.png
+@sha BCDyBA7r9BgJioaj+y71qWWch9N7ge6FtpMWsEWpRTo=
+@size 374
+share/gtk-doc/html/pango/up.png
+@sha xUt1lI9NJjV90BgVkHjzb5De6vKc47nSvQ6mZV7xvag=
+@size 260
+@exec %D/bin/pango-querymodules --update-cache

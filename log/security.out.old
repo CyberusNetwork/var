@@ -1,0 +1,11 @@
+
+Running security(8):
+
+Checking special files and directories.
+Output format is:
+	filename:
+		criteria (shouldbe, reallyis)
+usr/local: 
+	permissions (0755, 02755)
+usr/local/bin: 
+	permissions (0755, 02755)

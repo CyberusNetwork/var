@@ -1,0 +1,21 @@
+# /dev/rwd0c:
+type: ESDI
+disk: ESDI/IDE disk
+label: TRANSCEND       
+duid: ccd7679f658b5131
+flags:
+bytes/sector: 512
+sectors/track: 63
+tracks/cylinder: 32
+sectors/cylinder: 2016
+cylinders: 1007
+total sectors: 2030112
+boundstart: 64
+boundend: 2030112
+drivedata: 0 
+
+16 partitions:
+#                size           offset  fstype [fsize bsize  cpg]
+  a:          1998272               64  4.2BSD   2048 16384    1 # /
+  b:            31768          1998336    swap                   # none
+  c:          2030112                0  unused                   

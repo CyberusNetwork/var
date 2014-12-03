@@ -1,0 +1,70 @@
+@comment $OpenBSD: PLIST,v 1.29 2013/09/16 20:10:02 brad Exp $
+@name png-1.6.8
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.5/packages/i386/png-1.6.8.tgz
+@signer openbsd-55-pkg
+@digital-signature signify:2014-03-06T00:41:55Z:RWQQC1M9dhm/tsGXsJic5O11Yhb8HDKwBMc+UVJJBYDY2PFWcBuxF58fag+JCYH7rI/jjySFn7xOC5Im/gtbNZXq7TardrD8ggI=
+@comment pkgpath=graphics/png cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha 1YpSdQd91D+uK8XGy/LGZQnO+vIYitRoMVv1jXgxaLY=
+@size 377
+@wantlib c.73.1
+@wantlib m.9.0
+@wantlib z.5.0
+@cwd /usr/local
+bin/libpng-config
+@symlink libpng16-config
+bin/libpng16-config
+@sha wr7ACkJXVQXyGfbJKWZVgX3r+tfKxC1GulQrJH6hKuM=
+@size 2322
+@bin bin/png-fix-itxt
+@sha jDebwdQwS8TQ7U7m6Dx6P7Vn0qeZsn6jz+XKG+IvVNs=
+@size 9712
+@comment @bin bin/pngfix
+include/libpng16/
+include/libpng16/png.h
+@sha B8XHwB8Ab54aKOs/FKdqWDv7/Ic1elQV9N/UctWnztE=
+@size 149224
+include/libpng16/pngconf.h
+@sha Jejg7Ei64pcd8RIe48AYWHDX85KFEzeF9JQjA+Y5NAo=
+@size 22363
+include/libpng16/pnglibconf.h
+@sha ofCnm2xn7TZpNH/LfC6J4MuwgBFxpnAEZABbLGqHDbY=
+@size 7213
+include/png.h
+@symlink libpng16/png.h
+include/pngconf.h
+@symlink libpng16/pngconf.h
+include/pnglibconf.h
+@symlink libpng16/pnglibconf.h
+lib/libpng.a
+@symlink libpng16.a
+lib/libpng.la
+@sha TnzLkvtXV64AIzxNSWZHIO8xyWLrZ2iu90yFBdl4Pp0=
+@size 720
+@lib lib/libpng.so.17.1
+@symlink libpng16.so.17.1
+lib/libpng16.a
+@sha LTis7qNKeU6Bg25unIaD7PKAIiCEub1u3PdlfmimiL0=
+@size 258190
+lib/libpng16.la
+@sha U4l0GgVL/InMeTlHZ/P6NrgyDPUjiBAzYTTZ3hzyGSM=
+@size 730
+@lib lib/libpng16.so.17.1
+@sha bOU+N5N9pZGvYvYR1M68PEDNSw49pSXhrCosvD/puDI=
+@size 211329
+lib/pkgconfig/
+lib/pkgconfig/libpng.pc
+@symlink libpng16.pc
+lib/pkgconfig/libpng16.pc
+@sha Buxm3680HM5VcdQGNCIw9c7rLs1RXSf3GJ1fyRS3MI0=
+@size 247
+@man man/man3/libpng.3
+@sha slWu9J9Kck722f6KGTj5ZrzB3uxQT0mNZi9pRbTT1k0=
+@size 269551
+@man man/man3/libpngpf.3
+@sha RXueZULfUOjaSAKVruyF0lMM0bCofENaFjjAPkRrT5g=
+@size 763
+@man man/man5/png.5
+@sha /vQYsR2iDCQKam5YLliRRNxZOeH5/RQIEWDtTxzTzV8=
+@size 2413

@@ -1,0 +1,31 @@
+@comment $OpenBSD: PLIST-update,v 1.1 2013/11/05 17:49:01 sthen Exp $
+@name rrdupdate-1.4.8
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.5/packages/i386/rrdupdate-1.4.8.tgz
+@signer openbsd-55-pkg
+@digital-signature signify:2014-03-06T00:43:02Z:RWQQC1M9dhm/tjoMODfDFZLupq7hqPKnZ7EkRN0ZbX5BlE6m8I2rPQufR0Ozt7H5Z2SXGfVizeyfDaEGcSxuQ7QmUz3K3vz0vAo=
+@comment pkgpath=net/rrdtool,-update cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha SExGvv8QzOn5ndUqlRyo4f6q+NT7sLreK/jzfebT7vc=
+@size 753
+@conflict rrdtool-<=1.4
+@wantlib c.73.1
+@wantlib m.9.0
+@wantlib pthread.18.0
+@cwd /usr/local
+bin/rrdcreate
+@symlink rrdupdate
+bin/rrdinfo
+@symlink rrdupdate
+@bin bin/rrdupdate
+@sha VDDaGmlAiJWsYszlC3ef5YHN69IYo+rRIMw1GXJkIAc=
+@size 89956
+@man man/man1/rrdcreate.1
+@sha 9AMyU0inl02fiitmsybMdotlfuH0NehfdTqMdotf7t8=
+@size 32402
+@man man/man1/rrdinfo.1
+@sha AXxWVc4w1ceWBzFSCq3ROP71e1uV48DDuYzM9CIxRjs=
+@size 6383
+@man man/man1/rrdupdate.1
+@sha TynjxQ+At0ftkkOYjoV4yoUVRuuW936iWnrxrf7eOH0=
+@size 11016

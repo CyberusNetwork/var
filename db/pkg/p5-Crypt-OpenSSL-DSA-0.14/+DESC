@@ -1,0 +1,7 @@
+implements DSA using OpenSSL
+This module implements the Digital Signature Algorithm (DSA) using
+a thin XS wrapper to the DSA functions in OpenSSL.
+
+Maintainer: The OpenBSD ports mailing-list <ports@openbsd.org>
+
+WWW: http://search.cpan.org/dist/Crypt-OpenSSL-DSA/

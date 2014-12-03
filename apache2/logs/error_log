@@ -1,0 +1,92 @@
+[Wed Nov 05 10:46:08 2014] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 05 10:46:09 2014] [notice] Digest: generating secret for digest authentication ...
+[Wed Nov 05 10:46:09 2014] [notice] Digest: done
+[Wed Nov 05 10:46:13 2014] [notice] Apache/2.2.26 (Unix) DAV/2 mod_ssl/2.2.26 OpenSSL/1.0.1c configured -- resuming normal operations
+[Wed Nov 05 10:46:23 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Wed Nov 05 10:49:35 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Wed Nov 05 10:49:35 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Wed Nov 05 11:01:50 2014] [notice] caught SIGTERM, shutting down
+[Wed Nov 05 11:02:18 2014] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 05 11:02:20 2014] [notice] Digest: generating secret for digest authentication ...
+[Wed Nov 05 11:02:20 2014] [notice] Digest: done
+[Wed Nov 05 11:02:23 2014] [notice] Apache/2.2.26 (Unix) DAV/2 mod_ssl/2.2.26 OpenSSL/1.0.1c configured -- resuming normal operations
+[Wed Nov 05 11:14:01 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Wed Nov 05 11:49:32 2014] [notice] caught SIGTERM, shutting down
+[Wed Nov 05 11:49:41 2014] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 05 11:49:43 2014] [notice] Digest: generating secret for digest authentication ...
+[Wed Nov 05 11:49:43 2014] [notice] Digest: done
+[Wed Nov 05 11:49:54 2014] [notice] Apache/2.2.26 (Unix) DAV/2 mod_ssl/2.2.26 OpenSSL/1.0.1c configured -- resuming normal operations
+[Wed Nov 05 15:08:50 2014] [notice] caught SIGTERM, shutting down
+[Mon Nov 17 14:56:06 2014] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Nov 17 14:56:08 2014] [notice] Digest: generating secret for digest authentication ...
+[Mon Nov 17 14:56:08 2014] [notice] Digest: done
+[Mon Nov 17 14:56:15 2014] [notice] Apache/2.2.26 (Unix) DAV/2 mod_ssl/2.2.26 OpenSSL/1.0.1c configured -- resuming normal operations
+[Mon Nov 17 14:56:15 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Mon Nov 17 14:56:44 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Mon Nov 17 14:56:49 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Mon Nov 17 16:13:42 2014] [notice] caught SIGTERM, shutting down
+[Wed Nov 19 11:51:14 2014] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 19 11:51:16 2014] [notice] Digest: generating secret for digest authentication ...
+[Wed Nov 19 11:51:16 2014] [notice] Digest: done
+[Wed Nov 19 11:51:20 2014] [notice] Apache/2.2.26 (Unix) DAV/2 mod_ssl/2.2.26 OpenSSL/1.0.1c configured -- resuming normal operations
+[Wed Nov 19 11:51:42 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Wed Nov 19 11:56:25 2014] [notice] caught SIGTERM, shutting down
+[Wed Nov 19 11:56:43 2014] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 19 11:56:45 2014] [notice] Digest: generating secret for digest authentication ...
+[Wed Nov 19 11:56:45 2014] [notice] Digest: done
+[Wed Nov 19 11:56:56 2014] [notice] Apache/2.2.26 (Unix) DAV/2 mod_ssl/2.2.26 OpenSSL/1.0.1c configured -- resuming normal operations
+[Wed Nov 19 12:00:40 2014] [notice] caught SIGTERM, shutting down
+[Wed Nov 19 13:51:34 2014] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 19 13:51:36 2014] [notice] Digest: generating secret for digest authentication ...
+[Wed Nov 19 13:51:36 2014] [notice] Digest: done
+[Wed Nov 19 13:51:45 2014] [notice] Apache/2.2.26 (Unix) DAV/2 mod_ssl/2.2.26 OpenSSL/1.0.1c configured -- resuming normal operations
+[Wed Nov 19 14:40:05 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/admin
+[Wed Nov 19 14:40:05 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Wed Nov 19 14:43:50 2014] [notice] caught SIGTERM, shutting down
+[Wed Nov 19 14:44:25 2014] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Nov 19 14:44:27 2014] [notice] Digest: generating secret for digest authentication ...
+[Wed Nov 19 14:44:27 2014] [notice] Digest: done
+[Wed Nov 19 14:44:37 2014] [notice] Apache/2.2.26 (Unix) DAV/2 mod_ssl/2.2.26 OpenSSL/1.0.1c configured -- resuming normal operations
+[Wed Nov 19 15:40:43 2014] [notice] caught SIGTERM, shutting down
+[Mon Nov 24 10:22:16 2014] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Nov 24 10:22:18 2014] [notice] Digest: generating secret for digest authentication ...
+[Mon Nov 24 10:22:18 2014] [notice] Digest: done
+[Mon Nov 24 10:22:25 2014] [notice] Apache/2.2.26 (Unix) DAV/2 mod_ssl/2.2.26 OpenSSL/1.0.1c configured -- resuming normal operations
+[Mon Nov 24 10:22:25 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Mon Nov 24 10:53:38 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Mon Nov 24 10:53:58 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Tue Nov 25 10:11:29 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Tue Nov 25 10:12:13 2014] [notice] caught SIGTERM, shutting down
+[Tue Nov 25 10:13:50 2014] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Nov 25 10:13:52 2014] [notice] Digest: generating secret for digest authentication ...
+[Tue Nov 25 10:13:52 2014] [notice] Digest: done
+[Tue Nov 25 10:13:57 2014] [notice] Apache/2.2.26 (Unix) DAV/2 mod_ssl/2.2.26 OpenSSL/1.0.1c configured -- resuming normal operations
+[Tue Nov 25 10:32:28 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/mg
+[Tue Nov 25 10:32:35 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/img
+[Tue Nov 25 10:34:06 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/script
+[Wed Nov 26 09:23:41 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Thu Nov 27 10:59:44 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Thu Nov 27 21:48:23 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Fri Nov 28 11:11:12 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Fri Nov 28 12:58:08 2014] [error] [client 10.8.111.151] File does not exist: /var/apache2/htdocs/centreon
+[Mon Dec 01 11:45:11 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Tue Dec 02 11:53:30 2014] [error] [client 10.8.111.109] File does not exist: /var/apache2/htdocs/favicon.ico
+[Tue Dec 02 11:58:21 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Tue Dec 02 15:51:51 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Tue Dec 02 15:51:52 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Tue Dec 02 15:51:52 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Tue Dec 02 15:51:53 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Tue Dec 02 15:51:53 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Tue Dec 02 15:51:53 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Tue Dec 02 15:51:54 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Tue Dec 02 15:53:04 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Tue Dec 02 15:56:46 2014] [error] [client 10.8.111.109] File does not exist: /var/apache2/htdocs/favicon.ico
+[Tue Dec 02 15:56:50 2014] [warn] (2)No such file or directory: Cannot reinit SSLMutex
+[Tue Dec 02 16:25:14 2014] [notice] caught SIGTERM, shutting down
+[Tue Dec 02 19:08:19 2014] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Dec 02 19:08:21 2014] [notice] Digest: generating secret for digest authentication ...
+[Tue Dec 02 19:08:21 2014] [notice] Digest: done
+[Tue Dec 02 19:08:28 2014] [notice] Apache/2.2.26 (Unix) DAV/2 mod_ssl/2.2.26 OpenSSL/1.0.1c configured -- resuming normal operations
+[Tue Dec 02 19:12:05 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Tue Dec 02 19:35:39 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Wed Dec 03 00:43:26 2014] [notice] caught SIGTERM, shutting down

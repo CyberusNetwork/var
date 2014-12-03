@@ -1,0 +1,17 @@
+@comment $OpenBSD: PLIST,v 1.8 2004/09/14 23:43:59 espie Exp $
+@name p5-FreezeThaw-0.5001
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.5/packages/i386/p5-FreezeThaw-0.5001.tgz
+@signer openbsd-55-pkg
+@digital-signature signify:2014-03-06T00:40:17Z:RWQQC1M9dhm/tng6wQFgEmgC4AvGCy00u54/1kfGxdIE7A2SILgyGevzEYHhFBcL5RAnqr8fnh3gPWrIPCgJJURM13KZpp+8kQM=
+@comment pkgpath=devel/p5-FreezeThaw cdrom=yes ftp=yes
+@arch *
++DESC
+@sha 3g9QcivoU6s+MmgdWID0+xm0SuBr9983kYA+tRI8Jzo=
+@size 342
+@cwd /usr/local
+libdata/perl5/site_perl/FreezeThaw.pm
+@sha +LLC1iwyeRbtytjKDxgF2M0g06GoboCg/kDIFUMR39s=
+@size 25274
+@man man/man3p/FreezeThaw.3p
+@sha WpxblBSl9/muZRYGvQawaLnYIplX6V0W0swHnl2oUUk=
+@size 13196

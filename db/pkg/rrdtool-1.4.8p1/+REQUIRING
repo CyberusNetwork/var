@@ -1,0 +1,12 @@
+pcre-8.33
+graphite2-1.2.4
+libiconv-1.14p1
+libxml-2.9.1
+gettext-0.18.2p4
+cairo-1.12.16
+glib2-2.38.2p6
+libffi-3.0.9p6
+pango-1.36.2
+rrdupdate-1.4.8
+harfbuzz-0.9.25
+png-1.6.8

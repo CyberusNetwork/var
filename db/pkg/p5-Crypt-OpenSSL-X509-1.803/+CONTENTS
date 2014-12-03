@@ -1,0 +1,33 @@
+@comment $OpenBSD: PLIST,v 1.1.1.1 2013/09/23 11:48:55 sthen Exp $
+@name p5-Crypt-OpenSSL-X509-1.803
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.5/packages/i386/p5-Crypt-OpenSSL-X509-1.803.tgz
+@signer openbsd-55-pkg
+@digital-signature signify:2014-03-06T00:39:57Z:RWQQC1M9dhm/tqUPGSIWX3BJXnQJC1b7Bms7iF/ZNB5erSPwn4fQ/tvWfwXW6vcooj7G3kccBMyytlppzCuyaRwJML63PDZ7fwA=
+@option manual-installation
+@comment pkgpath=security/p5-Crypt-OpenSSL-X509 cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha ebWT3RidvgSjPnjWBTAbEAjr67JZ/gYMjFxnEi3ww3o=
+@size 221
+@wantlib crypto.23.0
+@wantlib perl.14.0
+@cwd /usr/local
+libdata/perl5/site_perl/i386-openbsd/
+libdata/perl5/site_perl/i386-openbsd/Crypt/
+libdata/perl5/site_perl/i386-openbsd/Crypt/OpenSSL/
+libdata/perl5/site_perl/i386-openbsd/Crypt/OpenSSL/X509.pm
+@sha A9NGHfF7rS4g0f2mTPLgPbwybScIVYTCVS8dbg1xCTg=
+@size 9350
+libdata/perl5/site_perl/i386-openbsd/auto/
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/X509/
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/X509/X509.bs
+@sha 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+@size 0
+libdata/perl5/site_perl/i386-openbsd/auto/Crypt/OpenSSL/X509/X509.so
+@sha iCOBdp2r7fIEHfQyh6g5rzjTiv+X0PwgptHwfFOMijk=
+@size 103716
+@man man/man3p/Crypt::OpenSSL::X509.3p
+@sha hol3DfErUqqiSW0JY/8yBWxggNPrM+g8UfHM81W2COE=
+@size 13771

@@ -1,0 +1,20 @@
+@comment $OpenBSD: PLIST-main,v 1.2 2008/07/20 22:26:00 okan Exp $
+@name femail-0.98
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.5/packages/i386/femail-0.98.tgz
+@signer openbsd-55-pkg
+@digital-signature signify:2014-03-06T00:33:24Z:RWQQC1M9dhm/tvCVPQ3iAAy8T3TtBXrqXATyVYRCp3yfbEP660gFLrX+sQBEb+B4IJOX+1swSWbaO5f9onoPZQV7woM8G1PLJAA=
+@comment pkgpath=mail/femail,-main cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha SXyJtdt+uYZ+PIb6ivM9BNPJOMcnbj18OtjDqcuwnB8=
+@size 365
+@pkgpath mail/femail
+@pkgpath mail/femail,static
+@wantlib c.73.1
+@cwd /usr/local
+@man man/man8/femail.8
+@sha z294xg4GMJkJQcfx2l4BMg5WK4OJ7y0m2BhHiOcJ1bY=
+@size 2567
+@bin sbin/femail
+@sha ClapBxwdoEiGrmLqKfRabjHxWbizDAW3Q/8/etUMvGU=
+@size 19600

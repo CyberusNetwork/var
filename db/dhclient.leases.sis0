@@ -1,0 +1,18 @@
+lease {
+  interface "sis0";
+  fixed-address 192.168.1.34;
+  next-server 192.168.1.1;
+  filename "pxeboot";
+  option subnet-mask 255.255.255.0;
+  option domain-name-servers 192.168.1.1;
+  option domain-name "cyberus.itinet.fr";
+  option dhcp-lease-time 43200;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.1.1;
+  option dhcp-renewal-time 21600;
+  option dhcp-rebinding-time 37800;
+  option dhcp-client-identifier 1:0:0:24:c4:f5:dc;
+  renew 2 2014/10/28 20:46:03 UTC;
+  rebind 3 2014/10/29 01:16:03 UTC;
+  expire 3 2014/10/29 02:46:03 UTC;
+}

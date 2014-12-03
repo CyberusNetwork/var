@@ -1,0 +1,24 @@
+Dec  2 18:00:02 cyberus newsyslog[6147]: logfile turned over
+Dec  3 08:59:01 cyberus sm-mta[21705]: gethostbyaddr(192.168.0.1) failed: 1
+Dec  3 08:59:02 cyberus sm-mta[21705]: gethostbyaddr(10.8.100.2) failed: 1
+Dec  3 08:59:02 cyberus sm-mta[7271]: starting daemon (8.14.8): SMTP+queueing@00:30:00
+Dec  3 09:29:25 cyberus sendmail[12530]: sB38TPv1012530: from=root, size=205, class=0, nrcpts=1, msgid=<201412030829.sB38TPv1012530@cyberus.itinet.fr>, relay=root@localhost
+Dec  3 09:29:27 cyberus sm-mta[10304]: sB38TQcO010304: from=<root@cyberus.itinet.fr>, size=512, class=0, nrcpts=1, msgid=<201412030829.sB38TPv1012530@cyberus.itinet.fr>, proto=ESMTP, daemon=MTA, relay=localhost [127.0.0.1]
+Dec  3 09:29:27 cyberus sendmail[12530]: sB38TPv1012530: to=a.thibault@fairsys.fr, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:01, mailer=relay, pri=30205, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (sB38TQcO010304 Message accepted for delivery)
+Dec  3 09:31:10 cyberus sendmail[31654]: sB38V9jG031654: from=root, size=222, class=0, nrcpts=1, msgid=<201412030831.sB38V9jG031654@cyberus.itinet.fr>, relay=root@localhost
+Dec  3 09:31:11 cyberus sm-mta[14675]: sB38VBF9014675: from=<root@cyberus.itinet.fr>, size=529, class=0, nrcpts=1, msgid=<201412030831.sB38V9jG031654@cyberus.itinet.fr>, proto=ESMTP, daemon=MTA, relay=localhost [127.0.0.1]
+Dec  3 09:31:11 cyberus sendmail[31654]: sB38V9jG031654: to=a.thibault@fairsys.fr, ctladdr=root (0/0), delay=00:00:01, xdelay=00:00:00, mailer=relay, pri=30222, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (sB38VBF9014675 Message accepted for delivery)
+Dec  3 09:31:58 cyberus sm-mta[6439]: sB38TQcO010304: to=<a.thibault@fairsys.fr>, ctladdr=<root@cyberus.itinet.fr> (0/0), delay=00:02:32, xdelay=00:02:31, mailer=esmtp, pri=30512, relay=mx3.ovh.net. [213.186.33.73], dsn=2.0.0, stat=Sent (ok 1417595518 qp 17696)
+Dec  3 09:33:42 cyberus sm-mta[14167]: sB38VBF9014675: to=<a.thibault@fairsys.fr>, ctladdr=<root@cyberus.itinet.fr> (0/0), delay=00:02:31, xdelay=00:02:31, mailer=esmtp, pri=30529, relay=mx3.ovh.net. [213.186.33.73], dsn=2.0.0, stat=Sent (ok 1417595622 qp 24846)
+Dec  3 12:18:53 cyberus sendmail[15701]: sB3BIqqV015701: from=root, size=222, class=0, nrcpts=1, msgid=<201412031118.sB3BIqqV015701@cyberus.itinet.fr>, relay=root@localhost
+Dec  3 12:18:53 cyberus sm-mta[1958]: sB3BIr6t001958: from=<root@cyberus.itinet.fr>, size=529, class=0, nrcpts=1, msgid=<201412031118.sB3BIqqV015701@cyberus.itinet.fr>, proto=ESMTP, daemon=MTA, relay=localhost [127.0.0.1]
+Dec  3 12:18:54 cyberus sendmail[15701]: sB3BIqqV015701: to=a.thibault@fairsys.fr, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:01, mailer=relay, pri=30222, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (sB3BIr6t001958 Message accepted for delivery)
+Dec  3 12:21:14 cyberus sendmail[23915]: sB3BLDFV023915: from=root, size=7612, class=0, nrcpts=1, msgid=<201412031121.sB3BLDFV023915@cyberus.itinet.fr>, relay=root@localhost
+Dec  3 12:21:15 cyberus sendmail[25075]: sB3BLFUP025075: from=root, size=6624, class=0, nrcpts=1, msgid=<201412031121.sB3BLFUP025075@cyberus.itinet.fr>, relay=root@localhost
+Dec  3 12:21:16 cyberus sm-mta[23928]: sB3BLFHD023928: from=<root@cyberus.itinet.fr>, size=7919, class=0, nrcpts=1, msgid=<201412031121.sB3BLDFV023915@cyberus.itinet.fr>, proto=ESMTP, daemon=MTA, relay=localhost [127.0.0.1]
+Dec  3 12:21:16 cyberus sendmail[23915]: sB3BLDFV023915: to=a.thibault@fairsys.fr, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:01, mailer=relay, pri=37612, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (sB3BLFHD023928 Message accepted for delivery)
+Dec  3 12:21:16 cyberus sm-mta[9889]: sB3BLGgp009889: from=<root@cyberus.itinet.fr>, size=6931, class=0, nrcpts=1, msgid=<201412031121.sB3BLFUP025075@cyberus.itinet.fr>, proto=ESMTP, daemon=MTA, relay=localhost [127.0.0.1]
+Dec  3 12:21:16 cyberus sendmail[25075]: sB3BLFUP025075: to=a.thibault@fairsys.fr, ctladdr=root (0/0), delay=00:00:01, xdelay=00:00:00, mailer=relay, pri=36624, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (sB3BLGgp009889 Message accepted for delivery)
+Dec  3 12:21:25 cyberus sm-mta[1139]: sB3BIr6t001958: to=<a.thibault@fairsys.fr>, ctladdr=<root@cyberus.itinet.fr> (0/0), delay=00:02:32, xdelay=00:02:31, mailer=esmtp, pri=30529, relay=mx3.ovh.net. [213.186.33.73], dsn=2.0.0, stat=Sent (ok 1417605685 qp 31513)
+Dec  3 12:23:47 cyberus sm-mta[9877]: sB3BLFHD023928: to=<a.thibault@fairsys.fr>, ctladdr=<root@cyberus.itinet.fr> (0/0), delay=00:02:32, xdelay=00:02:31, mailer=esmtp, pri=37919, relay=mx3.ovh.net. [213.186.33.73], dsn=2.0.0, stat=Sent (ok 1417605827 qp 10023)
+Dec  3 12:23:48 cyberus sm-mta[13338]: sB3BLGgp009889: to=<a.thibault@fairsys.fr>, ctladdr=<root@cyberus.itinet.fr> (0/0), delay=00:02:32, xdelay=00:02:32, mailer=esmtp, pri=36931, relay=mx3.ovh.net. [213.186.33.73], dsn=2.0.0, stat=Sent (ok 1417605828 qp 10051)

@@ -1,0 +1,22 @@
+@comment $OpenBSD: PLIST,v 1.1.1.1 2004/10/08 23:36:32 naddy Exp $
+@name numlockx-1.1p0
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.5/packages/i386/numlockx-1.1p0.tgz
+@signer openbsd-55-pkg
+@digital-signature signify:2014-03-06T00:39:01Z:RWQQC1M9dhm/tlxpnd5FXIVoYHACCY87QpRqaHBkxmFjP8F2TqAhQ0/5twWf2QcenCVfH4HG4Xi4I80VgPpjww+zXmYNKPIzRAE=
+@option manual-installation
+@comment pkgpath=x11/numlockx cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha vUOGlALhgY69calAy9NGsT/Nzl/oRchEBnu0j+RhZOo=
+@size 285
+@wantlib X11.16.0
+@wantlib Xext.13.0
+@wantlib c.73.1
+@cwd /usr/local
+bin/numlockx
+@sha TbRm/5sOUYN4oBtaiPGovSXVtUSOKOyTdZrCL2yLlAQ=
+@size 10032
+share/doc/numlockx/
+share/doc/numlockx/README
+@sha 2KQpf/O0ya4AiFUShrYoz3UJ/NEEsHynekS27CZwIaU=
+@size 4230

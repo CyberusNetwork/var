@@ -1,0 +1,2 @@
+7271
+/usr/sbin/sendmail -L sm-mta -C/etc/mail/localhost.cf -bd -q30m

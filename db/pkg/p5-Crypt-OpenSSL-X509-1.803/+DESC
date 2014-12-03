@@ -1,0 +1,6 @@
+access OpenSSL's X509 API from Perl
+This Perl extension implements the majority of OpenSSL's X509 API.
+
+Maintainer: The OpenBSD ports mailing-list <ports@openbsd.org>
+
+WWW: http://search.cpan.org/dist/Crypt-OpenSSL-X509/
